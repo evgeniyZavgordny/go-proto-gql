@@ -12,8 +12,8 @@ import (
 
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
-	"github.com/danielvladco/go-proto-gql/example/codegen/pb"
-	"github.com/danielvladco/go-proto-gql/pkg/types"
+	"github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb"
+	"github.com/evgeniyZavgordny/go-proto-gql/pkg/types"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 	"google.golang.org/protobuf/types/known/anypb"
@@ -2101,7 +2101,7 @@ func (ec *executionContext) field_Mutation_constructsMaps__args(ctx context.Cont
 	var arg0 *pb.Maps
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalOMapsInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps(ctx, tmp)
+		arg0, err = ec.unmarshalOMapsInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -2116,7 +2116,7 @@ func (ec *executionContext) field_Mutation_constructsOneof__args(ctx context.Con
 	var arg0 *pb.Oneof
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalOOneofInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof(ctx, tmp)
+		arg0, err = ec.unmarshalOOneofInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -2131,7 +2131,7 @@ func (ec *executionContext) field_Mutation_constructsRef__args(ctx context.Conte
 	var arg0 *pb.Ref
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalORefInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef(ctx, tmp)
+		arg0, err = ec.unmarshalORefInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -2146,7 +2146,7 @@ func (ec *executionContext) field_Mutation_constructsRepeated__args(ctx context.
 	var arg0 *pb.Repeated
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalORepeatedInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRepeated(ctx, tmp)
+		arg0, err = ec.unmarshalORepeatedInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRepeated(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -2161,7 +2161,7 @@ func (ec *executionContext) field_Mutation_constructsScalars__args(ctx context.C
 	var arg0 *pb.Scalars
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalOScalarsInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐScalars(ctx, tmp)
+		arg0, err = ec.unmarshalOScalarsInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐScalars(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -2444,7 +2444,7 @@ func (ec *executionContext) _Maps_int32Int32(ctx context.Context, field graphql.
 	}
 	res := resTmp.([]*pb.Maps_Int32Int32Entry)
 	fc.Result = res
-	return ec.marshalOMaps_Int32Int32Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_Int32Int32Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_int64Int64(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2476,7 +2476,7 @@ func (ec *executionContext) _Maps_int64Int64(ctx context.Context, field graphql.
 	}
 	res := resTmp.([]*pb.Maps_Int64Int64Entry)
 	fc.Result = res
-	return ec.marshalOMaps_Int64Int64Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_Int64Int64Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_uint32Uint32(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2508,7 +2508,7 @@ func (ec *executionContext) _Maps_uint32Uint32(ctx context.Context, field graphq
 	}
 	res := resTmp.([]*pb.Maps_Uint32Uint32Entry)
 	fc.Result = res
-	return ec.marshalOMaps_Uint32Uint32Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_Uint32Uint32Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_uint64Uint64(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2540,7 +2540,7 @@ func (ec *executionContext) _Maps_uint64Uint64(ctx context.Context, field graphq
 	}
 	res := resTmp.([]*pb.Maps_Uint64Uint64Entry)
 	fc.Result = res
-	return ec.marshalOMaps_Uint64Uint64Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_Uint64Uint64Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_sint32Sint32(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2572,7 +2572,7 @@ func (ec *executionContext) _Maps_sint32Sint32(ctx context.Context, field graphq
 	}
 	res := resTmp.([]*pb.Maps_Sint32Sint32Entry)
 	fc.Result = res
-	return ec.marshalOMaps_Sint32Sint32Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_Sint32Sint32Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_sint64Sint64(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2604,7 +2604,7 @@ func (ec *executionContext) _Maps_sint64Sint64(ctx context.Context, field graphq
 	}
 	res := resTmp.([]*pb.Maps_Sint64Sint64Entry)
 	fc.Result = res
-	return ec.marshalOMaps_Sint64Sint64Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_Sint64Sint64Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_fixed32Fixed32(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2636,7 +2636,7 @@ func (ec *executionContext) _Maps_fixed32Fixed32(ctx context.Context, field grap
 	}
 	res := resTmp.([]*pb.Maps_Fixed32Fixed32Entry)
 	fc.Result = res
-	return ec.marshalOMaps_Fixed32Fixed32Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_Fixed32Fixed32Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_fixed64Fixed64(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2668,7 +2668,7 @@ func (ec *executionContext) _Maps_fixed64Fixed64(ctx context.Context, field grap
 	}
 	res := resTmp.([]*pb.Maps_Fixed64Fixed64Entry)
 	fc.Result = res
-	return ec.marshalOMaps_Fixed64Fixed64Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_Fixed64Fixed64Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_sfixed32Sfixed32(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2700,7 +2700,7 @@ func (ec *executionContext) _Maps_sfixed32Sfixed32(ctx context.Context, field gr
 	}
 	res := resTmp.([]*pb.Maps_Sfixed32Sfixed32Entry)
 	fc.Result = res
-	return ec.marshalOMaps_Sfixed32Sfixed32Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_Sfixed32Sfixed32Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_sfixed64Sfixed64(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2732,7 +2732,7 @@ func (ec *executionContext) _Maps_sfixed64Sfixed64(ctx context.Context, field gr
 	}
 	res := resTmp.([]*pb.Maps_Sfixed64Sfixed64Entry)
 	fc.Result = res
-	return ec.marshalOMaps_Sfixed64Sfixed64Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_Sfixed64Sfixed64Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_boolBool(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2764,7 +2764,7 @@ func (ec *executionContext) _Maps_boolBool(ctx context.Context, field graphql.Co
 	}
 	res := resTmp.([]*pb.Maps_BoolBoolEntry)
 	fc.Result = res
-	return ec.marshalOMaps_BoolBoolEntry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_BoolBoolEntry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_stringString(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2796,7 +2796,7 @@ func (ec *executionContext) _Maps_stringString(ctx context.Context, field graphq
 	}
 	res := resTmp.([]*pb.Maps_StringStringEntry)
 	fc.Result = res
-	return ec.marshalOMaps_StringStringEntry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_StringStringEntry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_stringBytes(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2828,7 +2828,7 @@ func (ec *executionContext) _Maps_stringBytes(ctx context.Context, field graphql
 	}
 	res := resTmp.([]*pb.Maps_StringBytesEntry)
 	fc.Result = res
-	return ec.marshalOMaps_StringBytesEntry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_StringBytesEntry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_stringFloat(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2860,7 +2860,7 @@ func (ec *executionContext) _Maps_stringFloat(ctx context.Context, field graphql
 	}
 	res := resTmp.([]*pb.Maps_StringFloatEntry)
 	fc.Result = res
-	return ec.marshalOMaps_StringFloatEntry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_StringFloatEntry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_stringDouble(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2892,7 +2892,7 @@ func (ec *executionContext) _Maps_stringDouble(ctx context.Context, field graphq
 	}
 	res := resTmp.([]*pb.Maps_StringDoubleEntry)
 	fc.Result = res
-	return ec.marshalOMaps_StringDoubleEntry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_StringDoubleEntry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_stringFoo(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2924,7 +2924,7 @@ func (ec *executionContext) _Maps_stringFoo(ctx context.Context, field graphql.C
 	}
 	res := resTmp.([]*pb.Maps_StringFooEntry)
 	fc.Result = res
-	return ec.marshalOMaps_StringFooEntry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_StringFooEntry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_stringBar(ctx context.Context, field graphql.CollectedField, obj *pb.Maps) (ret graphql.Marshaler) {
@@ -2956,7 +2956,7 @@ func (ec *executionContext) _Maps_stringBar(ctx context.Context, field graphql.C
 	}
 	res := resTmp.([]*pb.Maps_StringBarEntry)
 	fc.Result = res
-	return ec.marshalOMaps_StringBarEntry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntryᚄ(ctx, field.Selections, res)
+	return ec.marshalOMaps_StringBarEntry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntryᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_BoolBoolEntry_key(ctx context.Context, field graphql.CollectedField, obj *pb.Maps_BoolBoolEntry) (ret graphql.Marshaler) {
@@ -3596,7 +3596,7 @@ func (ec *executionContext) _Maps_StringBarEntry_value(ctx context.Context, fiel
 	}
 	res := resTmp.(pb.Bar)
 	fc.Result = res
-	return ec.marshalOBar2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx, field.Selections, res)
+	return ec.marshalOBar2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_StringBytesEntry_key(ctx context.Context, field graphql.CollectedField, obj *pb.Maps_StringBytesEntry) (ret graphql.Marshaler) {
@@ -3852,7 +3852,7 @@ func (ec *executionContext) _Maps_StringFooEntry_value(ctx context.Context, fiel
 	}
 	res := resTmp.(*pb.Foo)
 	fc.Result = res
-	return ec.marshalOFoo2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx, field.Selections, res)
+	return ec.marshalOFoo2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Maps_StringStringEntry_key(ctx context.Context, field graphql.CollectedField, obj *pb.Maps_StringStringEntry) (ret graphql.Marshaler) {
@@ -4092,7 +4092,7 @@ func (ec *executionContext) _Mutation_constructsScalars_(ctx context.Context, fi
 		if data, ok := tmp.(*pb.Scalars); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Scalars`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Scalars`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -4103,7 +4103,7 @@ func (ec *executionContext) _Mutation_constructsScalars_(ctx context.Context, fi
 	}
 	res := resTmp.(*pb.Scalars)
 	fc.Result = res
-	return ec.marshalOScalars2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐScalars(ctx, field.Selections, res)
+	return ec.marshalOScalars2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐScalars(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_constructsRepeated_(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -4151,7 +4151,7 @@ func (ec *executionContext) _Mutation_constructsRepeated_(ctx context.Context, f
 		if data, ok := tmp.(*pb.Repeated); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Repeated`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Repeated`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -4162,7 +4162,7 @@ func (ec *executionContext) _Mutation_constructsRepeated_(ctx context.Context, f
 	}
 	res := resTmp.(*pb.Repeated)
 	fc.Result = res
-	return ec.marshalORepeated2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRepeated(ctx, field.Selections, res)
+	return ec.marshalORepeated2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRepeated(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_constructsMaps_(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -4210,7 +4210,7 @@ func (ec *executionContext) _Mutation_constructsMaps_(ctx context.Context, field
 		if data, ok := tmp.(*pb.Maps); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Maps`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Maps`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -4221,7 +4221,7 @@ func (ec *executionContext) _Mutation_constructsMaps_(ctx context.Context, field
 	}
 	res := resTmp.(*pb.Maps)
 	fc.Result = res
-	return ec.marshalOMaps2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps(ctx, field.Selections, res)
+	return ec.marshalOMaps2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_constructsAny_(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -4269,7 +4269,7 @@ func (ec *executionContext) _Mutation_constructsAny_(ctx context.Context, field 
 		if data, ok := tmp.(*pb.Any); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Any`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Any`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -4280,7 +4280,7 @@ func (ec *executionContext) _Mutation_constructsAny_(ctx context.Context, field 
 	}
 	res := resTmp.(*pb.Any)
 	fc.Result = res
-	return ec.marshalOPb_Any2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐAny(ctx, field.Selections, res)
+	return ec.marshalOPb_Any2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐAny(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_constructsEmpty_(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -4484,7 +4484,7 @@ func (ec *executionContext) _Mutation_constructsRef_(ctx context.Context, field 
 		if data, ok := tmp.(*pb.Ref); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Ref`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Ref`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -4495,7 +4495,7 @@ func (ec *executionContext) _Mutation_constructsRef_(ctx context.Context, field 
 	}
 	res := resTmp.(*pb.Ref)
 	fc.Result = res
-	return ec.marshalORef2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef(ctx, field.Selections, res)
+	return ec.marshalORef2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_constructsOneof_(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -4543,7 +4543,7 @@ func (ec *executionContext) _Mutation_constructsOneof_(ctx context.Context, fiel
 		if data, ok := tmp.(*pb.Oneof); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Oneof`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Oneof`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -4554,7 +4554,7 @@ func (ec *executionContext) _Mutation_constructsOneof_(ctx context.Context, fiel
 	}
 	res := resTmp.(*pb.Oneof)
 	fc.Result = res
-	return ec.marshalOOneof2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof(ctx, field.Selections, res)
+	return ec.marshalOOneof2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_constructsCallWithId(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -4670,7 +4670,7 @@ func (ec *executionContext) _Oneof_oneof1(ctx context.Context, field graphql.Col
 	}
 	res := resTmp.(pb.Oneof_Oneof1)
 	fc.Result = res
-	return ec.marshalOOneof_Oneof12githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof_Oneof1(ctx, field.Selections, res)
+	return ec.marshalOOneof_Oneof12githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof_Oneof1(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Oneof_oneof2(ctx context.Context, field graphql.CollectedField, obj *pb.Oneof) (ret graphql.Marshaler) {
@@ -4702,7 +4702,7 @@ func (ec *executionContext) _Oneof_oneof2(ctx context.Context, field graphql.Col
 	}
 	res := resTmp.(pb.Oneof_Oneof2)
 	fc.Result = res
-	return ec.marshalOOneof_Oneof22githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof_Oneof2(ctx, field.Selections, res)
+	return ec.marshalOOneof_Oneof22githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof_Oneof2(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Oneof_oneof3(ctx context.Context, field graphql.CollectedField, obj *pb.Oneof) (ret graphql.Marshaler) {
@@ -4734,7 +4734,7 @@ func (ec *executionContext) _Oneof_oneof3(ctx context.Context, field graphql.Col
 	}
 	res := resTmp.(pb.Oneof_Oneof3)
 	fc.Result = res
-	return ec.marshalOOneof_Oneof32githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof_Oneof3(ctx, field.Selections, res)
+	return ec.marshalOOneof_Oneof32githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof_Oneof3(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Oneof_Param2_param2(ctx context.Context, field graphql.CollectedField, obj *pb.Oneof_Param2) (ret graphql.Marshaler) {
@@ -5061,7 +5061,7 @@ func (ec *executionContext) _Ref_localTime2(ctx context.Context, field graphql.C
 	}
 	res := resTmp.(*pb.Timestamp)
 	fc.Result = res
-	return ec.marshalOTimestamp2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx, field.Selections, res)
+	return ec.marshalOTimestamp2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_external(ctx context.Context, field graphql.CollectedField, obj *pb.Ref) (ret graphql.Marshaler) {
@@ -5125,7 +5125,7 @@ func (ec *executionContext) _Ref_localTime(ctx context.Context, field graphql.Co
 	}
 	res := resTmp.(*pb.Timestamp)
 	fc.Result = res
-	return ec.marshalOTimestamp2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx, field.Selections, res)
+	return ec.marshalOTimestamp2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_file(ctx context.Context, field graphql.CollectedField, obj *pb.Ref) (ret graphql.Marshaler) {
@@ -5157,7 +5157,7 @@ func (ec *executionContext) _Ref_file(ctx context.Context, field graphql.Collect
 	}
 	res := resTmp.(*pb.Baz)
 	fc.Result = res
-	return ec.marshalOBaz2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBaz(ctx, field.Selections, res)
+	return ec.marshalOBaz2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBaz(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_fileMsg(ctx context.Context, field graphql.CollectedField, obj *pb.Ref) (ret graphql.Marshaler) {
@@ -5189,7 +5189,7 @@ func (ec *executionContext) _Ref_fileMsg(ctx context.Context, field graphql.Coll
 	}
 	res := resTmp.(*pb.Foo)
 	fc.Result = res
-	return ec.marshalOFoo2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx, field.Selections, res)
+	return ec.marshalOFoo2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_fileEnum(ctx context.Context, field graphql.CollectedField, obj *pb.Ref) (ret graphql.Marshaler) {
@@ -5221,7 +5221,7 @@ func (ec *executionContext) _Ref_fileEnum(ctx context.Context, field graphql.Col
 	}
 	res := resTmp.(pb.Bar)
 	fc.Result = res
-	return ec.marshalOBar2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx, field.Selections, res)
+	return ec.marshalOBar2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_local(ctx context.Context, field graphql.CollectedField, obj *pb.Ref) (ret graphql.Marshaler) {
@@ -5253,7 +5253,7 @@ func (ec *executionContext) _Ref_local(ctx context.Context, field graphql.Collec
 	}
 	res := resTmp.(*pb.Ref_Foo)
 	fc.Result = res
-	return ec.marshalORef_Foo2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo(ctx, field.Selections, res)
+	return ec.marshalORef_Foo2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_foreign(ctx context.Context, field graphql.CollectedField, obj *pb.Ref) (ret graphql.Marshaler) {
@@ -5285,7 +5285,7 @@ func (ec *executionContext) _Ref_foreign(ctx context.Context, field graphql.Coll
 	}
 	res := resTmp.(*pb.Foo_Foo2)
 	fc.Result = res
-	return ec.marshalOFoo_Foo22ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo_Foo2(ctx, field.Selections, res)
+	return ec.marshalOFoo_Foo22ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo_Foo2(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_en1(ctx context.Context, field graphql.CollectedField, obj *pb.Ref) (ret graphql.Marshaler) {
@@ -5317,7 +5317,7 @@ func (ec *executionContext) _Ref_en1(ctx context.Context, field graphql.Collecte
 	}
 	res := resTmp.(pb.Ref_Foo_En)
 	fc.Result = res
-	return ec.marshalORef_Foo_En2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_En(ctx, field.Selections, res)
+	return ec.marshalORef_Foo_En2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_En(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_en2(ctx context.Context, field graphql.CollectedField, obj *pb.Ref) (ret graphql.Marshaler) {
@@ -5349,7 +5349,7 @@ func (ec *executionContext) _Ref_en2(ctx context.Context, field graphql.Collecte
 	}
 	res := resTmp.(pb.Ref_Foo_Bar_En)
 	fc.Result = res
-	return ec.marshalORef_Foo_Bar_En2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar_En(ctx, field.Selections, res)
+	return ec.marshalORef_Foo_Bar_En2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar_En(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_gz(ctx context.Context, field graphql.CollectedField, obj *pb.Ref) (ret graphql.Marshaler) {
@@ -5381,7 +5381,7 @@ func (ec *executionContext) _Ref_gz(ctx context.Context, field graphql.Collected
 	}
 	res := resTmp.(*pb.Ref_Foo_Baz_Gz)
 	fc.Result = res
-	return ec.marshalORef_Foo_Baz_Gz2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Baz_Gz(ctx, field.Selections, res)
+	return ec.marshalORef_Foo_Baz_Gz2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Baz_Gz(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_Bar_param1(ctx context.Context, field graphql.CollectedField, obj *pb.Ref_Bar) (ret graphql.Marshaler) {
@@ -5445,7 +5445,7 @@ func (ec *executionContext) _Ref_Foo_bar1(ctx context.Context, field graphql.Col
 	}
 	res := resTmp.(*pb.Ref_Foo_Bar)
 	fc.Result = res
-	return ec.marshalORef_Foo_Bar2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar(ctx, field.Selections, res)
+	return ec.marshalORef_Foo_Bar2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_Foo_localTime2(ctx context.Context, field graphql.CollectedField, obj *pb.Ref_Foo) (ret graphql.Marshaler) {
@@ -5477,7 +5477,7 @@ func (ec *executionContext) _Ref_Foo_localTime2(ctx context.Context, field graph
 	}
 	res := resTmp.(*pb.Timestamp)
 	fc.Result = res
-	return ec.marshalOTimestamp2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx, field.Selections, res)
+	return ec.marshalOTimestamp2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_Foo_externalTime1(ctx context.Context, field graphql.CollectedField, obj *pb.Ref_Foo) (ret graphql.Marshaler) {
@@ -5541,7 +5541,7 @@ func (ec *executionContext) _Ref_Foo_bar2(ctx context.Context, field graphql.Col
 	}
 	res := resTmp.(*pb.Ref_Bar)
 	fc.Result = res
-	return ec.marshalORef_Bar2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Bar(ctx, field.Selections, res)
+	return ec.marshalORef_Bar2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Bar(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_Foo_en1(ctx context.Context, field graphql.CollectedField, obj *pb.Ref_Foo) (ret graphql.Marshaler) {
@@ -5573,7 +5573,7 @@ func (ec *executionContext) _Ref_Foo_en1(ctx context.Context, field graphql.Coll
 	}
 	res := resTmp.(pb.Ref_Foo_En)
 	fc.Result = res
-	return ec.marshalORef_Foo_En2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_En(ctx, field.Selections, res)
+	return ec.marshalORef_Foo_En2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_En(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_Foo_en2(ctx context.Context, field graphql.CollectedField, obj *pb.Ref_Foo) (ret graphql.Marshaler) {
@@ -5605,7 +5605,7 @@ func (ec *executionContext) _Ref_Foo_en2(ctx context.Context, field graphql.Coll
 	}
 	res := resTmp.(pb.Ref_Foo_Bar_En)
 	fc.Result = res
-	return ec.marshalORef_Foo_Bar_En2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar_En(ctx, field.Selections, res)
+	return ec.marshalORef_Foo_Bar_En2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar_En(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Ref_Foo_Bar_param1(ctx context.Context, field graphql.CollectedField, obj *pb.Ref_Foo_Bar) (ret graphql.Marshaler) {
@@ -6181,7 +6181,7 @@ func (ec *executionContext) _Repeated_foo(ctx context.Context, field graphql.Col
 	}
 	res := resTmp.([]*pb.Foo)
 	fc.Result = res
-	return ec.marshalOFoo2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFooᚄ(ctx, field.Selections, res)
+	return ec.marshalOFoo2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFooᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Repeated_bar(ctx context.Context, field graphql.CollectedField, obj *pb.Repeated) (ret graphql.Marshaler) {
@@ -6213,7 +6213,7 @@ func (ec *executionContext) _Repeated_bar(ctx context.Context, field graphql.Col
 	}
 	res := resTmp.([]pb.Bar)
 	fc.Result = res
-	return ec.marshalOBar2ᚕgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBarᚄ(ctx, field.Selections, res)
+	return ec.marshalOBar2ᚕgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBarᚄ(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Scalars_double(ctx context.Context, field graphql.CollectedField, obj *pb.Scalars) (ret graphql.Marshaler) {
@@ -7953,7 +7953,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("int32Int32"))
-			data, err := ec.unmarshalOMaps_Int32Int32EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_Int32Int32EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -7964,7 +7964,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("int64Int64"))
-			data, err := ec.unmarshalOMaps_Int64Int64EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_Int64Int64EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -7975,7 +7975,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("uint32Uint32"))
-			data, err := ec.unmarshalOMaps_Uint32Uint32EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_Uint32Uint32EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -7986,7 +7986,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("uint64Uint64"))
-			data, err := ec.unmarshalOMaps_Uint64Uint64EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_Uint64Uint64EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -7997,7 +7997,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("sint32Sint32"))
-			data, err := ec.unmarshalOMaps_Sint32Sint32EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_Sint32Sint32EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8008,7 +8008,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("sint64Sint64"))
-			data, err := ec.unmarshalOMaps_Sint64Sint64EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_Sint64Sint64EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8019,7 +8019,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("fixed32Fixed32"))
-			data, err := ec.unmarshalOMaps_Fixed32Fixed32EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_Fixed32Fixed32EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8030,7 +8030,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("fixed64Fixed64"))
-			data, err := ec.unmarshalOMaps_Fixed64Fixed64EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_Fixed64Fixed64EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8041,7 +8041,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("sfixed32Sfixed32"))
-			data, err := ec.unmarshalOMaps_Sfixed32Sfixed32EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_Sfixed32Sfixed32EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8052,7 +8052,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("sfixed64Sfixed64"))
-			data, err := ec.unmarshalOMaps_Sfixed64Sfixed64EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_Sfixed64Sfixed64EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8063,7 +8063,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("boolBool"))
-			data, err := ec.unmarshalOMaps_BoolBoolEntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_BoolBoolEntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8074,7 +8074,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("stringString"))
-			data, err := ec.unmarshalOMaps_StringStringEntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_StringStringEntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8085,7 +8085,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("stringBytes"))
-			data, err := ec.unmarshalOMaps_StringBytesEntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_StringBytesEntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8096,7 +8096,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("stringFloat"))
-			data, err := ec.unmarshalOMaps_StringFloatEntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_StringFloatEntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8107,7 +8107,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("stringDouble"))
-			data, err := ec.unmarshalOMaps_StringDoubleEntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_StringDoubleEntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8118,7 +8118,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("stringFoo"))
-			data, err := ec.unmarshalOMaps_StringFooEntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_StringFooEntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8129,7 +8129,7 @@ func (ec *executionContext) unmarshalInputMapsInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("stringBar"))
-			data, err := ec.unmarshalOMaps_StringBarEntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntryᚄ(ctx, v)
+			data, err := ec.unmarshalOMaps_StringBarEntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntryᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8412,7 +8412,7 @@ func (ec *executionContext) unmarshalInputMaps_StringBarEntryInput(ctx context.C
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("value"))
-			it.Value, err = ec.unmarshalOBar2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx, v)
+			it.Value, err = ec.unmarshalOBar2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8524,7 +8524,7 @@ func (ec *executionContext) unmarshalInputMaps_StringFooEntryInput(ctx context.C
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("value"))
-			it.Value, err = ec.unmarshalOFooInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx, v)
+			it.Value, err = ec.unmarshalOFooInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8768,7 +8768,7 @@ func (ec *executionContext) unmarshalInputRefInput(ctx context.Context, obj inte
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("localTime2"))
-			it.LocalTime2, err = ec.unmarshalOTimestampInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx, v)
+			it.LocalTime2, err = ec.unmarshalOTimestampInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8784,7 +8784,7 @@ func (ec *executionContext) unmarshalInputRefInput(ctx context.Context, obj inte
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("localTime"))
-			it.LocalTime, err = ec.unmarshalOTimestampInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx, v)
+			it.LocalTime, err = ec.unmarshalOTimestampInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8792,7 +8792,7 @@ func (ec *executionContext) unmarshalInputRefInput(ctx context.Context, obj inte
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("file"))
-			it.File, err = ec.unmarshalOBazInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBaz(ctx, v)
+			it.File, err = ec.unmarshalOBazInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBaz(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8800,7 +8800,7 @@ func (ec *executionContext) unmarshalInputRefInput(ctx context.Context, obj inte
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("fileMsg"))
-			it.FileMsg, err = ec.unmarshalOFooInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx, v)
+			it.FileMsg, err = ec.unmarshalOFooInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8808,7 +8808,7 @@ func (ec *executionContext) unmarshalInputRefInput(ctx context.Context, obj inte
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("fileEnum"))
-			it.FileEnum, err = ec.unmarshalOBar2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx, v)
+			it.FileEnum, err = ec.unmarshalOBar2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8816,7 +8816,7 @@ func (ec *executionContext) unmarshalInputRefInput(ctx context.Context, obj inte
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("local"))
-			it.Local, err = ec.unmarshalORef_FooInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo(ctx, v)
+			it.Local, err = ec.unmarshalORef_FooInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8824,7 +8824,7 @@ func (ec *executionContext) unmarshalInputRefInput(ctx context.Context, obj inte
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("foreign"))
-			it.Foreign, err = ec.unmarshalOFoo_Foo2Input2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo_Foo2(ctx, v)
+			it.Foreign, err = ec.unmarshalOFoo_Foo2Input2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo_Foo2(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8832,7 +8832,7 @@ func (ec *executionContext) unmarshalInputRefInput(ctx context.Context, obj inte
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("en1"))
-			it.En1, err = ec.unmarshalORef_Foo_En2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_En(ctx, v)
+			it.En1, err = ec.unmarshalORef_Foo_En2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_En(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8840,7 +8840,7 @@ func (ec *executionContext) unmarshalInputRefInput(ctx context.Context, obj inte
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("en2"))
-			it.En2, err = ec.unmarshalORef_Foo_Bar_En2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar_En(ctx, v)
+			it.En2, err = ec.unmarshalORef_Foo_Bar_En2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar_En(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8848,7 +8848,7 @@ func (ec *executionContext) unmarshalInputRefInput(ctx context.Context, obj inte
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("gz"))
-			it.Gz, err = ec.unmarshalORef_Foo_Baz_GzInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Baz_Gz(ctx, v)
+			it.Gz, err = ec.unmarshalORef_Foo_Baz_GzInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Baz_Gz(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8888,7 +8888,7 @@ func (ec *executionContext) unmarshalInputRef_FooInput(ctx context.Context, obj 
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("bar1"))
-			it.Bar1, err = ec.unmarshalORef_Foo_BarInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar(ctx, v)
+			it.Bar1, err = ec.unmarshalORef_Foo_BarInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8896,7 +8896,7 @@ func (ec *executionContext) unmarshalInputRef_FooInput(ctx context.Context, obj 
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("localTime2"))
-			it.LocalTime2, err = ec.unmarshalOTimestampInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx, v)
+			it.LocalTime2, err = ec.unmarshalOTimestampInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8912,7 +8912,7 @@ func (ec *executionContext) unmarshalInputRef_FooInput(ctx context.Context, obj 
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("bar2"))
-			it.Bar2, err = ec.unmarshalORef_BarInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Bar(ctx, v)
+			it.Bar2, err = ec.unmarshalORef_BarInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Bar(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8920,7 +8920,7 @@ func (ec *executionContext) unmarshalInputRef_FooInput(ctx context.Context, obj 
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("en1"))
-			it.En1, err = ec.unmarshalORef_Foo_En2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_En(ctx, v)
+			it.En1, err = ec.unmarshalORef_Foo_En2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_En(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -8928,7 +8928,7 @@ func (ec *executionContext) unmarshalInputRef_FooInput(ctx context.Context, obj 
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("en2"))
-			it.En2, err = ec.unmarshalORef_Foo_Bar_En2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar_En(ctx, v)
+			it.En2, err = ec.unmarshalORef_Foo_Bar_En2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar_En(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -9108,7 +9108,7 @@ func (ec *executionContext) unmarshalInputRepeatedInput(ctx context.Context, obj
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("foo"))
-			it.Foo, err = ec.unmarshalOFooInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFooᚄ(ctx, v)
+			it.Foo, err = ec.unmarshalOFooInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFooᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -9116,7 +9116,7 @@ func (ec *executionContext) unmarshalInputRepeatedInput(ctx context.Context, obj
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("bar"))
-			it.Bar, err = ec.unmarshalOBar2ᚕgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBarᚄ(ctx, v)
+			it.Bar, err = ec.unmarshalOBar2ᚕgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBarᚄ(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -10924,12 +10924,12 @@ func (ec *executionContext) ___Type(ctx context.Context, sel ast.SelectionSet, o
 
 // region    ***************************** type.gotpl *****************************
 
-func (ec *executionContext) unmarshalNBar2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx context.Context, v interface{}) (pb.Bar, error) {
+func (ec *executionContext) unmarshalNBar2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx context.Context, v interface{}) (pb.Bar, error) {
 	res, err := pb.UnmarshalBar(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNBar2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx context.Context, sel ast.SelectionSet, v pb.Bar) graphql.Marshaler {
+func (ec *executionContext) marshalNBar2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx context.Context, sel ast.SelectionSet, v pb.Bar) graphql.Marshaler {
 	res := pb.MarshalBar(v)
 	if res == graphql.Null {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
@@ -11005,7 +11005,7 @@ func (ec *executionContext) marshalNFloat2float64(ctx context.Context, sel ast.S
 	return res
 }
 
-func (ec *executionContext) marshalNFoo2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx context.Context, sel ast.SelectionSet, v *pb.Foo) graphql.Marshaler {
+func (ec *executionContext) marshalNFoo2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx context.Context, sel ast.SelectionSet, v *pb.Foo) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11015,7 +11015,7 @@ func (ec *executionContext) marshalNFoo2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑpr
 	return ec._Foo(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNFooInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx context.Context, v interface{}) (*pb.Foo, error) {
+func (ec *executionContext) unmarshalNFooInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx context.Context, v interface{}) (*pb.Foo, error) {
 	res, err := ec.unmarshalInputFooInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
@@ -11080,7 +11080,7 @@ func (ec *executionContext) marshalNInt2uint64(ctx context.Context, sel ast.Sele
 	return res
 }
 
-func (ec *executionContext) marshalNMaps_BoolBoolEntry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_BoolBoolEntry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_BoolBoolEntry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_BoolBoolEntry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11090,12 +11090,12 @@ func (ec *executionContext) marshalNMaps_BoolBoolEntry2ᚖgithubᚗcomᚋdanielv
 	return ec._Maps_BoolBoolEntry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_BoolBoolEntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntry(ctx context.Context, v interface{}) (*pb.Maps_BoolBoolEntry, error) {
+func (ec *executionContext) unmarshalNMaps_BoolBoolEntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntry(ctx context.Context, v interface{}) (*pb.Maps_BoolBoolEntry, error) {
 	res, err := ec.unmarshalInputMaps_BoolBoolEntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_Fixed32Fixed32Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Fixed32Fixed32Entry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_Fixed32Fixed32Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Fixed32Fixed32Entry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11105,12 +11105,12 @@ func (ec *executionContext) marshalNMaps_Fixed32Fixed32Entry2ᚖgithubᚗcomᚋd
 	return ec._Maps_Fixed32Fixed32Entry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_Fixed32Fixed32EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entry(ctx context.Context, v interface{}) (*pb.Maps_Fixed32Fixed32Entry, error) {
+func (ec *executionContext) unmarshalNMaps_Fixed32Fixed32EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entry(ctx context.Context, v interface{}) (*pb.Maps_Fixed32Fixed32Entry, error) {
 	res, err := ec.unmarshalInputMaps_Fixed32Fixed32EntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_Fixed64Fixed64Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Fixed64Fixed64Entry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_Fixed64Fixed64Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Fixed64Fixed64Entry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11120,12 +11120,12 @@ func (ec *executionContext) marshalNMaps_Fixed64Fixed64Entry2ᚖgithubᚗcomᚋd
 	return ec._Maps_Fixed64Fixed64Entry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_Fixed64Fixed64EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entry(ctx context.Context, v interface{}) (*pb.Maps_Fixed64Fixed64Entry, error) {
+func (ec *executionContext) unmarshalNMaps_Fixed64Fixed64EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entry(ctx context.Context, v interface{}) (*pb.Maps_Fixed64Fixed64Entry, error) {
 	res, err := ec.unmarshalInputMaps_Fixed64Fixed64EntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_Int32Int32Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Int32Int32Entry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_Int32Int32Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Int32Int32Entry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11135,12 +11135,12 @@ func (ec *executionContext) marshalNMaps_Int32Int32Entry2ᚖgithubᚗcomᚋdanie
 	return ec._Maps_Int32Int32Entry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_Int32Int32EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entry(ctx context.Context, v interface{}) (*pb.Maps_Int32Int32Entry, error) {
+func (ec *executionContext) unmarshalNMaps_Int32Int32EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entry(ctx context.Context, v interface{}) (*pb.Maps_Int32Int32Entry, error) {
 	res, err := ec.unmarshalInputMaps_Int32Int32EntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_Int64Int64Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Int64Int64Entry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_Int64Int64Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Int64Int64Entry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11150,12 +11150,12 @@ func (ec *executionContext) marshalNMaps_Int64Int64Entry2ᚖgithubᚗcomᚋdanie
 	return ec._Maps_Int64Int64Entry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_Int64Int64EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entry(ctx context.Context, v interface{}) (*pb.Maps_Int64Int64Entry, error) {
+func (ec *executionContext) unmarshalNMaps_Int64Int64EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entry(ctx context.Context, v interface{}) (*pb.Maps_Int64Int64Entry, error) {
 	res, err := ec.unmarshalInputMaps_Int64Int64EntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_Sfixed32Sfixed32Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Sfixed32Sfixed32Entry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_Sfixed32Sfixed32Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Sfixed32Sfixed32Entry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11165,12 +11165,12 @@ func (ec *executionContext) marshalNMaps_Sfixed32Sfixed32Entry2ᚖgithubᚗcom�
 	return ec._Maps_Sfixed32Sfixed32Entry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_Sfixed32Sfixed32EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entry(ctx context.Context, v interface{}) (*pb.Maps_Sfixed32Sfixed32Entry, error) {
+func (ec *executionContext) unmarshalNMaps_Sfixed32Sfixed32EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entry(ctx context.Context, v interface{}) (*pb.Maps_Sfixed32Sfixed32Entry, error) {
 	res, err := ec.unmarshalInputMaps_Sfixed32Sfixed32EntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_Sfixed64Sfixed64Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Sfixed64Sfixed64Entry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_Sfixed64Sfixed64Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Sfixed64Sfixed64Entry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11180,12 +11180,12 @@ func (ec *executionContext) marshalNMaps_Sfixed64Sfixed64Entry2ᚖgithubᚗcom�
 	return ec._Maps_Sfixed64Sfixed64Entry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_Sfixed64Sfixed64EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entry(ctx context.Context, v interface{}) (*pb.Maps_Sfixed64Sfixed64Entry, error) {
+func (ec *executionContext) unmarshalNMaps_Sfixed64Sfixed64EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entry(ctx context.Context, v interface{}) (*pb.Maps_Sfixed64Sfixed64Entry, error) {
 	res, err := ec.unmarshalInputMaps_Sfixed64Sfixed64EntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_Sint32Sint32Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Sint32Sint32Entry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_Sint32Sint32Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Sint32Sint32Entry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11195,12 +11195,12 @@ func (ec *executionContext) marshalNMaps_Sint32Sint32Entry2ᚖgithubᚗcomᚋdan
 	return ec._Maps_Sint32Sint32Entry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_Sint32Sint32EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entry(ctx context.Context, v interface{}) (*pb.Maps_Sint32Sint32Entry, error) {
+func (ec *executionContext) unmarshalNMaps_Sint32Sint32EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entry(ctx context.Context, v interface{}) (*pb.Maps_Sint32Sint32Entry, error) {
 	res, err := ec.unmarshalInputMaps_Sint32Sint32EntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_Sint64Sint64Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Sint64Sint64Entry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_Sint64Sint64Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Sint64Sint64Entry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11210,12 +11210,12 @@ func (ec *executionContext) marshalNMaps_Sint64Sint64Entry2ᚖgithubᚗcomᚋdan
 	return ec._Maps_Sint64Sint64Entry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_Sint64Sint64EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entry(ctx context.Context, v interface{}) (*pb.Maps_Sint64Sint64Entry, error) {
+func (ec *executionContext) unmarshalNMaps_Sint64Sint64EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entry(ctx context.Context, v interface{}) (*pb.Maps_Sint64Sint64Entry, error) {
 	res, err := ec.unmarshalInputMaps_Sint64Sint64EntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_StringBarEntry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_StringBarEntry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_StringBarEntry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_StringBarEntry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11225,12 +11225,12 @@ func (ec *executionContext) marshalNMaps_StringBarEntry2ᚖgithubᚗcomᚋdaniel
 	return ec._Maps_StringBarEntry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_StringBarEntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntry(ctx context.Context, v interface{}) (*pb.Maps_StringBarEntry, error) {
+func (ec *executionContext) unmarshalNMaps_StringBarEntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntry(ctx context.Context, v interface{}) (*pb.Maps_StringBarEntry, error) {
 	res, err := ec.unmarshalInputMaps_StringBarEntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_StringBytesEntry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_StringBytesEntry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_StringBytesEntry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_StringBytesEntry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11240,12 +11240,12 @@ func (ec *executionContext) marshalNMaps_StringBytesEntry2ᚖgithubᚗcomᚋdani
 	return ec._Maps_StringBytesEntry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_StringBytesEntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntry(ctx context.Context, v interface{}) (*pb.Maps_StringBytesEntry, error) {
+func (ec *executionContext) unmarshalNMaps_StringBytesEntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntry(ctx context.Context, v interface{}) (*pb.Maps_StringBytesEntry, error) {
 	res, err := ec.unmarshalInputMaps_StringBytesEntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_StringDoubleEntry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_StringDoubleEntry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_StringDoubleEntry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_StringDoubleEntry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11255,12 +11255,12 @@ func (ec *executionContext) marshalNMaps_StringDoubleEntry2ᚖgithubᚗcomᚋdan
 	return ec._Maps_StringDoubleEntry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_StringDoubleEntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntry(ctx context.Context, v interface{}) (*pb.Maps_StringDoubleEntry, error) {
+func (ec *executionContext) unmarshalNMaps_StringDoubleEntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntry(ctx context.Context, v interface{}) (*pb.Maps_StringDoubleEntry, error) {
 	res, err := ec.unmarshalInputMaps_StringDoubleEntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_StringFloatEntry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_StringFloatEntry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_StringFloatEntry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_StringFloatEntry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11270,12 +11270,12 @@ func (ec *executionContext) marshalNMaps_StringFloatEntry2ᚖgithubᚗcomᚋdani
 	return ec._Maps_StringFloatEntry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_StringFloatEntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntry(ctx context.Context, v interface{}) (*pb.Maps_StringFloatEntry, error) {
+func (ec *executionContext) unmarshalNMaps_StringFloatEntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntry(ctx context.Context, v interface{}) (*pb.Maps_StringFloatEntry, error) {
 	res, err := ec.unmarshalInputMaps_StringFloatEntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_StringFooEntry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_StringFooEntry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_StringFooEntry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_StringFooEntry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11285,12 +11285,12 @@ func (ec *executionContext) marshalNMaps_StringFooEntry2ᚖgithubᚗcomᚋdaniel
 	return ec._Maps_StringFooEntry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_StringFooEntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntry(ctx context.Context, v interface{}) (*pb.Maps_StringFooEntry, error) {
+func (ec *executionContext) unmarshalNMaps_StringFooEntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntry(ctx context.Context, v interface{}) (*pb.Maps_StringFooEntry, error) {
 	res, err := ec.unmarshalInputMaps_StringFooEntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_StringStringEntry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_StringStringEntry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_StringStringEntry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_StringStringEntry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11300,12 +11300,12 @@ func (ec *executionContext) marshalNMaps_StringStringEntry2ᚖgithubᚗcomᚋdan
 	return ec._Maps_StringStringEntry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_StringStringEntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntry(ctx context.Context, v interface{}) (*pb.Maps_StringStringEntry, error) {
+func (ec *executionContext) unmarshalNMaps_StringStringEntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntry(ctx context.Context, v interface{}) (*pb.Maps_StringStringEntry, error) {
 	res, err := ec.unmarshalInputMaps_StringStringEntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_Uint32Uint32Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Uint32Uint32Entry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_Uint32Uint32Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Uint32Uint32Entry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11315,12 +11315,12 @@ func (ec *executionContext) marshalNMaps_Uint32Uint32Entry2ᚖgithubᚗcomᚋdan
 	return ec._Maps_Uint32Uint32Entry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_Uint32Uint32EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entry(ctx context.Context, v interface{}) (*pb.Maps_Uint32Uint32Entry, error) {
+func (ec *executionContext) unmarshalNMaps_Uint32Uint32EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entry(ctx context.Context, v interface{}) (*pb.Maps_Uint32Uint32Entry, error) {
 	res, err := ec.unmarshalInputMaps_Uint32Uint32EntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalNMaps_Uint64Uint64Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Uint64Uint64Entry) graphql.Marshaler {
+func (ec *executionContext) marshalNMaps_Uint64Uint64Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entry(ctx context.Context, sel ast.SelectionSet, v *pb.Maps_Uint64Uint64Entry) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -11330,7 +11330,7 @@ func (ec *executionContext) marshalNMaps_Uint64Uint64Entry2ᚖgithubᚗcomᚋdan
 	return ec._Maps_Uint64Uint64Entry(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNMaps_Uint64Uint64EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entry(ctx context.Context, v interface{}) (*pb.Maps_Uint64Uint64Entry, error) {
+func (ec *executionContext) unmarshalNMaps_Uint64Uint64EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entry(ctx context.Context, v interface{}) (*pb.Maps_Uint64Uint64Entry, error) {
 	res, err := ec.unmarshalInputMaps_Uint64Uint64EntryInput(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
@@ -11594,16 +11594,16 @@ func (ec *executionContext) marshalOAny2ᚖgoogleᚗgolangᚗorgᚋprotobufᚋty
 	return types.MarshalAny(v)
 }
 
-func (ec *executionContext) unmarshalOBar2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx context.Context, v interface{}) (pb.Bar, error) {
+func (ec *executionContext) unmarshalOBar2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx context.Context, v interface{}) (pb.Bar, error) {
 	res, err := pb.UnmarshalBar(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOBar2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx context.Context, sel ast.SelectionSet, v pb.Bar) graphql.Marshaler {
+func (ec *executionContext) marshalOBar2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx context.Context, sel ast.SelectionSet, v pb.Bar) graphql.Marshaler {
 	return pb.MarshalBar(v)
 }
 
-func (ec *executionContext) unmarshalOBar2ᚕgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBarᚄ(ctx context.Context, v interface{}) ([]pb.Bar, error) {
+func (ec *executionContext) unmarshalOBar2ᚕgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBarᚄ(ctx context.Context, v interface{}) ([]pb.Bar, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -11619,7 +11619,7 @@ func (ec *executionContext) unmarshalOBar2ᚕgithubᚗcomᚋdanielvladcoᚋgoᚑ
 	res := make([]pb.Bar, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNBar2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNBar2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -11627,7 +11627,7 @@ func (ec *executionContext) unmarshalOBar2ᚕgithubᚗcomᚋdanielvladcoᚋgoᚑ
 	return res, nil
 }
 
-func (ec *executionContext) marshalOBar2ᚕgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBarᚄ(ctx context.Context, sel ast.SelectionSet, v []pb.Bar) graphql.Marshaler {
+func (ec *executionContext) marshalOBar2ᚕgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBarᚄ(ctx context.Context, sel ast.SelectionSet, v []pb.Bar) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -11654,7 +11654,7 @@ func (ec *executionContext) marshalOBar2ᚕgithubᚗcomᚋdanielvladcoᚋgoᚑpr
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNBar2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx, sel, v[i])
+			ret[i] = ec.marshalNBar2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBar(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -11667,14 +11667,14 @@ func (ec *executionContext) marshalOBar2ᚕgithubᚗcomᚋdanielvladcoᚋgoᚑpr
 	return ret
 }
 
-func (ec *executionContext) marshalOBaz2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBaz(ctx context.Context, sel ast.SelectionSet, v *pb.Baz) graphql.Marshaler {
+func (ec *executionContext) marshalOBaz2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBaz(ctx context.Context, sel ast.SelectionSet, v *pb.Baz) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Baz(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOBazInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBaz(ctx context.Context, v interface{}) (*pb.Baz, error) {
+func (ec *executionContext) unmarshalOBazInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐBaz(ctx context.Context, v interface{}) (*pb.Baz, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -11883,7 +11883,7 @@ func (ec *executionContext) marshalOFloat2ᚕfloat64ᚄ(ctx context.Context, sel
 	return ret
 }
 
-func (ec *executionContext) marshalOFoo2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFooᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Foo) graphql.Marshaler {
+func (ec *executionContext) marshalOFoo2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFooᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Foo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -11910,7 +11910,7 @@ func (ec *executionContext) marshalOFoo2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgo�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNFoo2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx, sel, v[i])
+			ret[i] = ec.marshalNFoo2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -11923,14 +11923,14 @@ func (ec *executionContext) marshalOFoo2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgo�
 	return ret
 }
 
-func (ec *executionContext) marshalOFoo2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx context.Context, sel ast.SelectionSet, v *pb.Foo) graphql.Marshaler {
+func (ec *executionContext) marshalOFoo2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx context.Context, sel ast.SelectionSet, v *pb.Foo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Foo(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOFooInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFooᚄ(ctx context.Context, v interface{}) ([]*pb.Foo, error) {
+func (ec *executionContext) unmarshalOFooInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFooᚄ(ctx context.Context, v interface{}) ([]*pb.Foo, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -11946,7 +11946,7 @@ func (ec *executionContext) unmarshalOFooInput2ᚕᚖgithubᚗcomᚋdanielvladco
 	res := make([]*pb.Foo, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNFooInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNFooInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -11954,7 +11954,7 @@ func (ec *executionContext) unmarshalOFooInput2ᚕᚖgithubᚗcomᚋdanielvladco
 	return res, nil
 }
 
-func (ec *executionContext) unmarshalOFooInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx context.Context, v interface{}) (*pb.Foo, error) {
+func (ec *executionContext) unmarshalOFooInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo(ctx context.Context, v interface{}) (*pb.Foo, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -11962,14 +11962,14 @@ func (ec *executionContext) unmarshalOFooInput2ᚖgithubᚗcomᚋdanielvladcoᚋ
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOFoo_Foo22ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo_Foo2(ctx context.Context, sel ast.SelectionSet, v *pb.Foo_Foo2) graphql.Marshaler {
+func (ec *executionContext) marshalOFoo_Foo22ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo_Foo2(ctx context.Context, sel ast.SelectionSet, v *pb.Foo_Foo2) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Foo_Foo2(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOFoo_Foo2Input2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo_Foo2(ctx context.Context, v interface{}) (*pb.Foo_Foo2, error) {
+func (ec *executionContext) unmarshalOFoo_Foo2Input2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo_Foo2(ctx context.Context, v interface{}) (*pb.Foo_Foo2, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -12172,14 +12172,14 @@ func (ec *executionContext) marshalOInt2ᚕuint64ᚄ(ctx context.Context, sel as
 	return ret
 }
 
-func (ec *executionContext) marshalOMaps2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps(ctx context.Context, sel ast.SelectionSet, v *pb.Maps) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps(ctx context.Context, sel ast.SelectionSet, v *pb.Maps) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Maps(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOMapsInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps(ctx context.Context, v interface{}) (*pb.Maps, error) {
+func (ec *executionContext) unmarshalOMapsInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps(ctx context.Context, v interface{}) (*pb.Maps, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -12187,7 +12187,7 @@ func (ec *executionContext) unmarshalOMapsInput2ᚖgithubᚗcomᚋdanielvladco�
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOMaps_BoolBoolEntry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_BoolBoolEntry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_BoolBoolEntry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_BoolBoolEntry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -12214,7 +12214,7 @@ func (ec *executionContext) marshalOMaps_BoolBoolEntry2ᚕᚖgithubᚗcomᚋdani
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_BoolBoolEntry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_BoolBoolEntry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -12227,7 +12227,7 @@ func (ec *executionContext) marshalOMaps_BoolBoolEntry2ᚕᚖgithubᚗcomᚋdani
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_BoolBoolEntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_BoolBoolEntry, error) {
+func (ec *executionContext) unmarshalOMaps_BoolBoolEntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_BoolBoolEntry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -12243,7 +12243,7 @@ func (ec *executionContext) unmarshalOMaps_BoolBoolEntryInput2ᚕᚖgithubᚗcom
 	res := make([]*pb.Maps_BoolBoolEntry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_BoolBoolEntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_BoolBoolEntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_BoolBoolEntry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -12251,7 +12251,7 @@ func (ec *executionContext) unmarshalOMaps_BoolBoolEntryInput2ᚕᚖgithubᚗcom
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_Fixed32Fixed32Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Fixed32Fixed32Entry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_Fixed32Fixed32Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Fixed32Fixed32Entry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -12278,7 +12278,7 @@ func (ec *executionContext) marshalOMaps_Fixed32Fixed32Entry2ᚕᚖgithubᚗcom�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_Fixed32Fixed32Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_Fixed32Fixed32Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -12291,7 +12291,7 @@ func (ec *executionContext) marshalOMaps_Fixed32Fixed32Entry2ᚕᚖgithubᚗcom�
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_Fixed32Fixed32EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Fixed32Fixed32Entry, error) {
+func (ec *executionContext) unmarshalOMaps_Fixed32Fixed32EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Fixed32Fixed32Entry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -12307,7 +12307,7 @@ func (ec *executionContext) unmarshalOMaps_Fixed32Fixed32EntryInput2ᚕᚖgithub
 	res := make([]*pb.Maps_Fixed32Fixed32Entry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_Fixed32Fixed32EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_Fixed32Fixed32EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed32Fixed32Entry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -12315,7 +12315,7 @@ func (ec *executionContext) unmarshalOMaps_Fixed32Fixed32EntryInput2ᚕᚖgithub
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_Fixed64Fixed64Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Fixed64Fixed64Entry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_Fixed64Fixed64Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Fixed64Fixed64Entry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -12342,7 +12342,7 @@ func (ec *executionContext) marshalOMaps_Fixed64Fixed64Entry2ᚕᚖgithubᚗcom�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_Fixed64Fixed64Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_Fixed64Fixed64Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -12355,7 +12355,7 @@ func (ec *executionContext) marshalOMaps_Fixed64Fixed64Entry2ᚕᚖgithubᚗcom�
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_Fixed64Fixed64EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Fixed64Fixed64Entry, error) {
+func (ec *executionContext) unmarshalOMaps_Fixed64Fixed64EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Fixed64Fixed64Entry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -12371,7 +12371,7 @@ func (ec *executionContext) unmarshalOMaps_Fixed64Fixed64EntryInput2ᚕᚖgithub
 	res := make([]*pb.Maps_Fixed64Fixed64Entry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_Fixed64Fixed64EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_Fixed64Fixed64EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Fixed64Fixed64Entry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -12379,7 +12379,7 @@ func (ec *executionContext) unmarshalOMaps_Fixed64Fixed64EntryInput2ᚕᚖgithub
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_Int32Int32Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Int32Int32Entry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_Int32Int32Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Int32Int32Entry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -12406,7 +12406,7 @@ func (ec *executionContext) marshalOMaps_Int32Int32Entry2ᚕᚖgithubᚗcomᚋda
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_Int32Int32Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_Int32Int32Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -12419,7 +12419,7 @@ func (ec *executionContext) marshalOMaps_Int32Int32Entry2ᚕᚖgithubᚗcomᚋda
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_Int32Int32EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Int32Int32Entry, error) {
+func (ec *executionContext) unmarshalOMaps_Int32Int32EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Int32Int32Entry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -12435,7 +12435,7 @@ func (ec *executionContext) unmarshalOMaps_Int32Int32EntryInput2ᚕᚖgithubᚗc
 	res := make([]*pb.Maps_Int32Int32Entry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_Int32Int32EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_Int32Int32EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int32Int32Entry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -12443,7 +12443,7 @@ func (ec *executionContext) unmarshalOMaps_Int32Int32EntryInput2ᚕᚖgithubᚗc
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_Int64Int64Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Int64Int64Entry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_Int64Int64Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Int64Int64Entry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -12470,7 +12470,7 @@ func (ec *executionContext) marshalOMaps_Int64Int64Entry2ᚕᚖgithubᚗcomᚋda
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_Int64Int64Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_Int64Int64Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -12483,7 +12483,7 @@ func (ec *executionContext) marshalOMaps_Int64Int64Entry2ᚕᚖgithubᚗcomᚋda
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_Int64Int64EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Int64Int64Entry, error) {
+func (ec *executionContext) unmarshalOMaps_Int64Int64EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Int64Int64Entry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -12499,7 +12499,7 @@ func (ec *executionContext) unmarshalOMaps_Int64Int64EntryInput2ᚕᚖgithubᚗc
 	res := make([]*pb.Maps_Int64Int64Entry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_Int64Int64EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_Int64Int64EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Int64Int64Entry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -12507,7 +12507,7 @@ func (ec *executionContext) unmarshalOMaps_Int64Int64EntryInput2ᚕᚖgithubᚗc
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_Sfixed32Sfixed32Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Sfixed32Sfixed32Entry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_Sfixed32Sfixed32Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Sfixed32Sfixed32Entry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -12534,7 +12534,7 @@ func (ec *executionContext) marshalOMaps_Sfixed32Sfixed32Entry2ᚕᚖgithubᚗco
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_Sfixed32Sfixed32Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_Sfixed32Sfixed32Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -12547,7 +12547,7 @@ func (ec *executionContext) marshalOMaps_Sfixed32Sfixed32Entry2ᚕᚖgithubᚗco
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_Sfixed32Sfixed32EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Sfixed32Sfixed32Entry, error) {
+func (ec *executionContext) unmarshalOMaps_Sfixed32Sfixed32EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Sfixed32Sfixed32Entry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -12563,7 +12563,7 @@ func (ec *executionContext) unmarshalOMaps_Sfixed32Sfixed32EntryInput2ᚕᚖgith
 	res := make([]*pb.Maps_Sfixed32Sfixed32Entry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_Sfixed32Sfixed32EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_Sfixed32Sfixed32EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed32Sfixed32Entry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -12571,7 +12571,7 @@ func (ec *executionContext) unmarshalOMaps_Sfixed32Sfixed32EntryInput2ᚕᚖgith
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_Sfixed64Sfixed64Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Sfixed64Sfixed64Entry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_Sfixed64Sfixed64Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Sfixed64Sfixed64Entry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -12598,7 +12598,7 @@ func (ec *executionContext) marshalOMaps_Sfixed64Sfixed64Entry2ᚕᚖgithubᚗco
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_Sfixed64Sfixed64Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_Sfixed64Sfixed64Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -12611,7 +12611,7 @@ func (ec *executionContext) marshalOMaps_Sfixed64Sfixed64Entry2ᚕᚖgithubᚗco
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_Sfixed64Sfixed64EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Sfixed64Sfixed64Entry, error) {
+func (ec *executionContext) unmarshalOMaps_Sfixed64Sfixed64EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Sfixed64Sfixed64Entry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -12627,7 +12627,7 @@ func (ec *executionContext) unmarshalOMaps_Sfixed64Sfixed64EntryInput2ᚕᚖgith
 	res := make([]*pb.Maps_Sfixed64Sfixed64Entry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_Sfixed64Sfixed64EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_Sfixed64Sfixed64EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sfixed64Sfixed64Entry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -12635,7 +12635,7 @@ func (ec *executionContext) unmarshalOMaps_Sfixed64Sfixed64EntryInput2ᚕᚖgith
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_Sint32Sint32Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Sint32Sint32Entry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_Sint32Sint32Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Sint32Sint32Entry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -12662,7 +12662,7 @@ func (ec *executionContext) marshalOMaps_Sint32Sint32Entry2ᚕᚖgithubᚗcomᚋ
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_Sint32Sint32Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_Sint32Sint32Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -12675,7 +12675,7 @@ func (ec *executionContext) marshalOMaps_Sint32Sint32Entry2ᚕᚖgithubᚗcomᚋ
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_Sint32Sint32EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Sint32Sint32Entry, error) {
+func (ec *executionContext) unmarshalOMaps_Sint32Sint32EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Sint32Sint32Entry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -12691,7 +12691,7 @@ func (ec *executionContext) unmarshalOMaps_Sint32Sint32EntryInput2ᚕᚖgithub�
 	res := make([]*pb.Maps_Sint32Sint32Entry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_Sint32Sint32EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_Sint32Sint32EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint32Sint32Entry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -12699,7 +12699,7 @@ func (ec *executionContext) unmarshalOMaps_Sint32Sint32EntryInput2ᚕᚖgithub�
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_Sint64Sint64Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Sint64Sint64Entry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_Sint64Sint64Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Sint64Sint64Entry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -12726,7 +12726,7 @@ func (ec *executionContext) marshalOMaps_Sint64Sint64Entry2ᚕᚖgithubᚗcomᚋ
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_Sint64Sint64Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_Sint64Sint64Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -12739,7 +12739,7 @@ func (ec *executionContext) marshalOMaps_Sint64Sint64Entry2ᚕᚖgithubᚗcomᚋ
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_Sint64Sint64EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Sint64Sint64Entry, error) {
+func (ec *executionContext) unmarshalOMaps_Sint64Sint64EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Sint64Sint64Entry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -12755,7 +12755,7 @@ func (ec *executionContext) unmarshalOMaps_Sint64Sint64EntryInput2ᚕᚖgithub�
 	res := make([]*pb.Maps_Sint64Sint64Entry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_Sint64Sint64EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_Sint64Sint64EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Sint64Sint64Entry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -12763,7 +12763,7 @@ func (ec *executionContext) unmarshalOMaps_Sint64Sint64EntryInput2ᚕᚖgithub�
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_StringBarEntry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_StringBarEntry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_StringBarEntry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_StringBarEntry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -12790,7 +12790,7 @@ func (ec *executionContext) marshalOMaps_StringBarEntry2ᚕᚖgithubᚗcomᚋdan
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_StringBarEntry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_StringBarEntry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -12803,7 +12803,7 @@ func (ec *executionContext) marshalOMaps_StringBarEntry2ᚕᚖgithubᚗcomᚋdan
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_StringBarEntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_StringBarEntry, error) {
+func (ec *executionContext) unmarshalOMaps_StringBarEntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_StringBarEntry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -12819,7 +12819,7 @@ func (ec *executionContext) unmarshalOMaps_StringBarEntryInput2ᚕᚖgithubᚗco
 	res := make([]*pb.Maps_StringBarEntry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_StringBarEntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_StringBarEntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBarEntry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -12827,7 +12827,7 @@ func (ec *executionContext) unmarshalOMaps_StringBarEntryInput2ᚕᚖgithubᚗco
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_StringBytesEntry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_StringBytesEntry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_StringBytesEntry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_StringBytesEntry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -12854,7 +12854,7 @@ func (ec *executionContext) marshalOMaps_StringBytesEntry2ᚕᚖgithubᚗcomᚋd
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_StringBytesEntry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_StringBytesEntry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -12867,7 +12867,7 @@ func (ec *executionContext) marshalOMaps_StringBytesEntry2ᚕᚖgithubᚗcomᚋd
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_StringBytesEntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_StringBytesEntry, error) {
+func (ec *executionContext) unmarshalOMaps_StringBytesEntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_StringBytesEntry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -12883,7 +12883,7 @@ func (ec *executionContext) unmarshalOMaps_StringBytesEntryInput2ᚕᚖgithubᚗ
 	res := make([]*pb.Maps_StringBytesEntry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_StringBytesEntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_StringBytesEntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringBytesEntry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -12891,7 +12891,7 @@ func (ec *executionContext) unmarshalOMaps_StringBytesEntryInput2ᚕᚖgithubᚗ
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_StringDoubleEntry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_StringDoubleEntry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_StringDoubleEntry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_StringDoubleEntry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -12918,7 +12918,7 @@ func (ec *executionContext) marshalOMaps_StringDoubleEntry2ᚕᚖgithubᚗcomᚋ
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_StringDoubleEntry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_StringDoubleEntry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -12931,7 +12931,7 @@ func (ec *executionContext) marshalOMaps_StringDoubleEntry2ᚕᚖgithubᚗcomᚋ
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_StringDoubleEntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_StringDoubleEntry, error) {
+func (ec *executionContext) unmarshalOMaps_StringDoubleEntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_StringDoubleEntry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -12947,7 +12947,7 @@ func (ec *executionContext) unmarshalOMaps_StringDoubleEntryInput2ᚕᚖgithub�
 	res := make([]*pb.Maps_StringDoubleEntry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_StringDoubleEntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_StringDoubleEntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringDoubleEntry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -12955,7 +12955,7 @@ func (ec *executionContext) unmarshalOMaps_StringDoubleEntryInput2ᚕᚖgithub�
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_StringFloatEntry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_StringFloatEntry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_StringFloatEntry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_StringFloatEntry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -12982,7 +12982,7 @@ func (ec *executionContext) marshalOMaps_StringFloatEntry2ᚕᚖgithubᚗcomᚋd
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_StringFloatEntry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_StringFloatEntry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -12995,7 +12995,7 @@ func (ec *executionContext) marshalOMaps_StringFloatEntry2ᚕᚖgithubᚗcomᚋd
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_StringFloatEntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_StringFloatEntry, error) {
+func (ec *executionContext) unmarshalOMaps_StringFloatEntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_StringFloatEntry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -13011,7 +13011,7 @@ func (ec *executionContext) unmarshalOMaps_StringFloatEntryInput2ᚕᚖgithubᚗ
 	res := make([]*pb.Maps_StringFloatEntry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_StringFloatEntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_StringFloatEntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFloatEntry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -13019,7 +13019,7 @@ func (ec *executionContext) unmarshalOMaps_StringFloatEntryInput2ᚕᚖgithubᚗ
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_StringFooEntry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_StringFooEntry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_StringFooEntry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_StringFooEntry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -13046,7 +13046,7 @@ func (ec *executionContext) marshalOMaps_StringFooEntry2ᚕᚖgithubᚗcomᚋdan
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_StringFooEntry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_StringFooEntry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -13059,7 +13059,7 @@ func (ec *executionContext) marshalOMaps_StringFooEntry2ᚕᚖgithubᚗcomᚋdan
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_StringFooEntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_StringFooEntry, error) {
+func (ec *executionContext) unmarshalOMaps_StringFooEntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_StringFooEntry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -13075,7 +13075,7 @@ func (ec *executionContext) unmarshalOMaps_StringFooEntryInput2ᚕᚖgithubᚗco
 	res := make([]*pb.Maps_StringFooEntry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_StringFooEntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_StringFooEntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringFooEntry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -13083,7 +13083,7 @@ func (ec *executionContext) unmarshalOMaps_StringFooEntryInput2ᚕᚖgithubᚗco
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_StringStringEntry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_StringStringEntry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_StringStringEntry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_StringStringEntry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -13110,7 +13110,7 @@ func (ec *executionContext) marshalOMaps_StringStringEntry2ᚕᚖgithubᚗcomᚋ
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_StringStringEntry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_StringStringEntry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -13123,7 +13123,7 @@ func (ec *executionContext) marshalOMaps_StringStringEntry2ᚕᚖgithubᚗcomᚋ
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_StringStringEntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_StringStringEntry, error) {
+func (ec *executionContext) unmarshalOMaps_StringStringEntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_StringStringEntry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -13139,7 +13139,7 @@ func (ec *executionContext) unmarshalOMaps_StringStringEntryInput2ᚕᚖgithub�
 	res := make([]*pb.Maps_StringStringEntry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_StringStringEntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_StringStringEntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_StringStringEntry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -13147,7 +13147,7 @@ func (ec *executionContext) unmarshalOMaps_StringStringEntryInput2ᚕᚖgithub�
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_Uint32Uint32Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Uint32Uint32Entry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_Uint32Uint32Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Uint32Uint32Entry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -13174,7 +13174,7 @@ func (ec *executionContext) marshalOMaps_Uint32Uint32Entry2ᚕᚖgithubᚗcomᚋ
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_Uint32Uint32Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_Uint32Uint32Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -13187,7 +13187,7 @@ func (ec *executionContext) marshalOMaps_Uint32Uint32Entry2ᚕᚖgithubᚗcomᚋ
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_Uint32Uint32EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Uint32Uint32Entry, error) {
+func (ec *executionContext) unmarshalOMaps_Uint32Uint32EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Uint32Uint32Entry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -13203,7 +13203,7 @@ func (ec *executionContext) unmarshalOMaps_Uint32Uint32EntryInput2ᚕᚖgithub�
 	res := make([]*pb.Maps_Uint32Uint32Entry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_Uint32Uint32EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_Uint32Uint32EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint32Uint32Entry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -13211,7 +13211,7 @@ func (ec *executionContext) unmarshalOMaps_Uint32Uint32EntryInput2ᚕᚖgithub�
 	return res, nil
 }
 
-func (ec *executionContext) marshalOMaps_Uint64Uint64Entry2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Uint64Uint64Entry) graphql.Marshaler {
+func (ec *executionContext) marshalOMaps_Uint64Uint64Entry2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entryᚄ(ctx context.Context, sel ast.SelectionSet, v []*pb.Maps_Uint64Uint64Entry) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -13238,7 +13238,7 @@ func (ec *executionContext) marshalOMaps_Uint64Uint64Entry2ᚕᚖgithubᚗcomᚋ
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalNMaps_Uint64Uint64Entry2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entry(ctx, sel, v[i])
+			ret[i] = ec.marshalNMaps_Uint64Uint64Entry2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entry(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -13251,7 +13251,7 @@ func (ec *executionContext) marshalOMaps_Uint64Uint64Entry2ᚕᚖgithubᚗcomᚋ
 	return ret
 }
 
-func (ec *executionContext) unmarshalOMaps_Uint64Uint64EntryInput2ᚕᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Uint64Uint64Entry, error) {
+func (ec *executionContext) unmarshalOMaps_Uint64Uint64EntryInput2ᚕᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entryᚄ(ctx context.Context, v interface{}) ([]*pb.Maps_Uint64Uint64Entry, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -13267,7 +13267,7 @@ func (ec *executionContext) unmarshalOMaps_Uint64Uint64EntryInput2ᚕᚖgithub�
 	res := make([]*pb.Maps_Uint64Uint64Entry, len(vSlice))
 	for i := range vSlice {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithIndex(i))
-		res[i], err = ec.unmarshalNMaps_Uint64Uint64EntryInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entry(ctx, vSlice[i])
+		res[i], err = ec.unmarshalNMaps_Uint64Uint64EntryInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐMaps_Uint64Uint64Entry(ctx, vSlice[i])
 		if err != nil {
 			return nil, err
 		}
@@ -13275,14 +13275,14 @@ func (ec *executionContext) unmarshalOMaps_Uint64Uint64EntryInput2ᚕᚖgithub�
 	return res, nil
 }
 
-func (ec *executionContext) marshalOOneof2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof(ctx context.Context, sel ast.SelectionSet, v *pb.Oneof) graphql.Marshaler {
+func (ec *executionContext) marshalOOneof2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof(ctx context.Context, sel ast.SelectionSet, v *pb.Oneof) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Oneof(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOOneofInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof(ctx context.Context, v interface{}) (*pb.Oneof, error) {
+func (ec *executionContext) unmarshalOOneofInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof(ctx context.Context, v interface{}) (*pb.Oneof, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -13290,42 +13290,42 @@ func (ec *executionContext) unmarshalOOneofInput2ᚖgithubᚗcomᚋdanielvladco�
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOOneof_Oneof12githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof_Oneof1(ctx context.Context, sel ast.SelectionSet, v pb.Oneof_Oneof1) graphql.Marshaler {
+func (ec *executionContext) marshalOOneof_Oneof12githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof_Oneof1(ctx context.Context, sel ast.SelectionSet, v pb.Oneof_Oneof1) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Oneof_Oneof1(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOOneof_Oneof22githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof_Oneof2(ctx context.Context, sel ast.SelectionSet, v pb.Oneof_Oneof2) graphql.Marshaler {
+func (ec *executionContext) marshalOOneof_Oneof22githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof_Oneof2(ctx context.Context, sel ast.SelectionSet, v pb.Oneof_Oneof2) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Oneof_Oneof2(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOOneof_Oneof32githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof_Oneof3(ctx context.Context, sel ast.SelectionSet, v pb.Oneof_Oneof3) graphql.Marshaler {
+func (ec *executionContext) marshalOOneof_Oneof32githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐOneof_Oneof3(ctx context.Context, sel ast.SelectionSet, v pb.Oneof_Oneof3) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Oneof_Oneof3(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalOPb_Any2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐAny(ctx context.Context, sel ast.SelectionSet, v *pb.Any) graphql.Marshaler {
+func (ec *executionContext) marshalOPb_Any2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐAny(ctx context.Context, sel ast.SelectionSet, v *pb.Any) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Pb_Any(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalORef2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef(ctx context.Context, sel ast.SelectionSet, v *pb.Ref) graphql.Marshaler {
+func (ec *executionContext) marshalORef2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef(ctx context.Context, sel ast.SelectionSet, v *pb.Ref) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Ref(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalORefInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef(ctx context.Context, v interface{}) (*pb.Ref, error) {
+func (ec *executionContext) unmarshalORefInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef(ctx context.Context, v interface{}) (*pb.Ref, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -13333,14 +13333,14 @@ func (ec *executionContext) unmarshalORefInput2ᚖgithubᚗcomᚋdanielvladcoᚋ
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalORef_Bar2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Bar(ctx context.Context, sel ast.SelectionSet, v *pb.Ref_Bar) graphql.Marshaler {
+func (ec *executionContext) marshalORef_Bar2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Bar(ctx context.Context, sel ast.SelectionSet, v *pb.Ref_Bar) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Ref_Bar(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalORef_BarInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Bar(ctx context.Context, v interface{}) (*pb.Ref_Bar, error) {
+func (ec *executionContext) unmarshalORef_BarInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Bar(ctx context.Context, v interface{}) (*pb.Ref_Bar, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -13348,14 +13348,14 @@ func (ec *executionContext) unmarshalORef_BarInput2ᚖgithubᚗcomᚋdanielvladc
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalORef_Foo2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo(ctx context.Context, sel ast.SelectionSet, v *pb.Ref_Foo) graphql.Marshaler {
+func (ec *executionContext) marshalORef_Foo2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo(ctx context.Context, sel ast.SelectionSet, v *pb.Ref_Foo) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Ref_Foo(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalORef_FooInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo(ctx context.Context, v interface{}) (*pb.Ref_Foo, error) {
+func (ec *executionContext) unmarshalORef_FooInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo(ctx context.Context, v interface{}) (*pb.Ref_Foo, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -13363,14 +13363,14 @@ func (ec *executionContext) unmarshalORef_FooInput2ᚖgithubᚗcomᚋdanielvladc
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalORef_Foo_Bar2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar(ctx context.Context, sel ast.SelectionSet, v *pb.Ref_Foo_Bar) graphql.Marshaler {
+func (ec *executionContext) marshalORef_Foo_Bar2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar(ctx context.Context, sel ast.SelectionSet, v *pb.Ref_Foo_Bar) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Ref_Foo_Bar(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalORef_Foo_BarInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar(ctx context.Context, v interface{}) (*pb.Ref_Foo_Bar, error) {
+func (ec *executionContext) unmarshalORef_Foo_BarInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar(ctx context.Context, v interface{}) (*pb.Ref_Foo_Bar, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -13378,23 +13378,23 @@ func (ec *executionContext) unmarshalORef_Foo_BarInput2ᚖgithubᚗcomᚋdanielv
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalORef_Foo_Bar_En2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar_En(ctx context.Context, v interface{}) (pb.Ref_Foo_Bar_En, error) {
+func (ec *executionContext) unmarshalORef_Foo_Bar_En2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar_En(ctx context.Context, v interface{}) (pb.Ref_Foo_Bar_En, error) {
 	res, err := pb.UnmarshalRef_Foo_Bar_En(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalORef_Foo_Bar_En2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar_En(ctx context.Context, sel ast.SelectionSet, v pb.Ref_Foo_Bar_En) graphql.Marshaler {
+func (ec *executionContext) marshalORef_Foo_Bar_En2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Bar_En(ctx context.Context, sel ast.SelectionSet, v pb.Ref_Foo_Bar_En) graphql.Marshaler {
 	return pb.MarshalRef_Foo_Bar_En(v)
 }
 
-func (ec *executionContext) marshalORef_Foo_Baz_Gz2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Baz_Gz(ctx context.Context, sel ast.SelectionSet, v *pb.Ref_Foo_Baz_Gz) graphql.Marshaler {
+func (ec *executionContext) marshalORef_Foo_Baz_Gz2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Baz_Gz(ctx context.Context, sel ast.SelectionSet, v *pb.Ref_Foo_Baz_Gz) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Ref_Foo_Baz_Gz(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalORef_Foo_Baz_GzInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Baz_Gz(ctx context.Context, v interface{}) (*pb.Ref_Foo_Baz_Gz, error) {
+func (ec *executionContext) unmarshalORef_Foo_Baz_GzInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_Baz_Gz(ctx context.Context, v interface{}) (*pb.Ref_Foo_Baz_Gz, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -13402,23 +13402,23 @@ func (ec *executionContext) unmarshalORef_Foo_Baz_GzInput2ᚖgithubᚗcomᚋdani
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) unmarshalORef_Foo_En2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_En(ctx context.Context, v interface{}) (pb.Ref_Foo_En, error) {
+func (ec *executionContext) unmarshalORef_Foo_En2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_En(ctx context.Context, v interface{}) (pb.Ref_Foo_En, error) {
 	res, err := pb.UnmarshalRef_Foo_En(v)
 	return res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalORef_Foo_En2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_En(ctx context.Context, sel ast.SelectionSet, v pb.Ref_Foo_En) graphql.Marshaler {
+func (ec *executionContext) marshalORef_Foo_En2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRef_Foo_En(ctx context.Context, sel ast.SelectionSet, v pb.Ref_Foo_En) graphql.Marshaler {
 	return pb.MarshalRef_Foo_En(v)
 }
 
-func (ec *executionContext) marshalORepeated2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRepeated(ctx context.Context, sel ast.SelectionSet, v *pb.Repeated) graphql.Marshaler {
+func (ec *executionContext) marshalORepeated2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRepeated(ctx context.Context, sel ast.SelectionSet, v *pb.Repeated) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Repeated(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalORepeatedInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRepeated(ctx context.Context, v interface{}) (*pb.Repeated, error) {
+func (ec *executionContext) unmarshalORepeatedInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐRepeated(ctx context.Context, v interface{}) (*pb.Repeated, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -13426,14 +13426,14 @@ func (ec *executionContext) unmarshalORepeatedInput2ᚖgithubᚗcomᚋdanielvlad
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOScalars2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐScalars(ctx context.Context, sel ast.SelectionSet, v *pb.Scalars) graphql.Marshaler {
+func (ec *executionContext) marshalOScalars2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐScalars(ctx context.Context, sel ast.SelectionSet, v *pb.Scalars) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Scalars(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOScalarsInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐScalars(ctx context.Context, v interface{}) (*pb.Scalars, error) {
+func (ec *executionContext) unmarshalOScalarsInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐScalars(ctx context.Context, v interface{}) (*pb.Scalars, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -13501,14 +13501,14 @@ func (ec *executionContext) marshalOString2ᚖstring(ctx context.Context, sel as
 	return graphql.MarshalString(*v)
 }
 
-func (ec *executionContext) marshalOTimestamp2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx context.Context, sel ast.SelectionSet, v *pb.Timestamp) graphql.Marshaler {
+func (ec *executionContext) marshalOTimestamp2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx context.Context, sel ast.SelectionSet, v *pb.Timestamp) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Timestamp(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOTimestampInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx context.Context, v interface{}) (*pb.Timestamp, error) {
+func (ec *executionContext) unmarshalOTimestampInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐTimestamp(ctx context.Context, v interface{}) (*pb.Timestamp, error) {
 	if v == nil {
 		return nil, nil
 	}

@@ -10,14 +10,13 @@ import (
 	"testing"
 
 	"github.com/pmezard/go-difflib/difflib"
-	"github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 	"github.com/vektah/gqlparser/v2/formatter"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/danielvladco/go-proto-gql/pkg/generator"
-	"github.com/danielvladco/go-proto-gql/pkg/protoparser"
+	"github.com/evgeniyZavgordny/go-proto-gql/pkg/generator"
+	"github.com/evgeniyZavgordny/go-proto-gql/pkg/protoparser"
 )
 
 func Test_Generator(t *testing.T) {

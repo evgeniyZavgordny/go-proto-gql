@@ -1,10 +1,10 @@
-module github.com/danielvladco/go-proto-gql
+module github.com/evgeniyZavgordny/go-proto-gql
 
 go 1.18
 
 require (
 	github.com/99designs/gqlgen v0.14.1-0.20211026151442-6c65e8f15389
-	github.com/danielvladco/go-proto-gql/pb v0.6.1
+	github.com/evgeniyZavgordny/go-proto-gql/pb v0.6.1
 	github.com/golang/protobuf v1.5.2
 	github.com/jhump/protoreflect v1.7.1
 	github.com/nautilus/gateway v0.1.4

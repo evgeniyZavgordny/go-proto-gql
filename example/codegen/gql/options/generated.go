@@ -14,7 +14,7 @@ import (
 
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
-	"github.com/danielvladco/go-proto-gql/example/codegen/pb"
+	"github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 )
@@ -734,7 +734,7 @@ func (ec *executionContext) field_Mutation_name_args(ctx context.Context, rawArg
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -749,7 +749,7 @@ func (ec *executionContext) field_Mutation_newName0_args(ctx context.Context, ra
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -764,7 +764,7 @@ func (ec *executionContext) field_Mutation_newName_args(ctx context.Context, raw
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -779,7 +779,7 @@ func (ec *executionContext) field_Mutation_queryMutate1_args(ctx context.Context
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -794,7 +794,7 @@ func (ec *executionContext) field_Mutation_serviceInvalidSubscribe3_args(ctx con
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -809,7 +809,7 @@ func (ec *executionContext) field_Mutation_serviceMutate1_args(ctx context.Conte
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -824,7 +824,7 @@ func (ec *executionContext) field_Mutation_serviceMutate2_args(ctx context.Conte
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -839,7 +839,7 @@ func (ec *executionContext) field_Mutation_servicePubSub1_args(ctx context.Conte
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -854,7 +854,7 @@ func (ec *executionContext) field_Mutation_servicePubSub2_args(ctx context.Conte
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -869,7 +869,7 @@ func (ec *executionContext) field_Mutation_servicePublish_args(ctx context.Conte
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -899,7 +899,7 @@ func (ec *executionContext) field_Query_queryQuery1_args(ctx context.Context, ra
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -914,7 +914,7 @@ func (ec *executionContext) field_Query_queryQuery2_args(ctx context.Context, ra
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -929,7 +929,7 @@ func (ec *executionContext) field_Query_serviceInvalidSubscribe1_args(ctx contex
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -944,7 +944,7 @@ func (ec *executionContext) field_Query_serviceQuery1_args(ctx context.Context, 
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -959,7 +959,7 @@ func (ec *executionContext) field_Subscription_querySubscribe_args(ctx context.C
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -974,7 +974,7 @@ func (ec *executionContext) field_Subscription_serviceInvalidSubscribe2_args(ctx
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -989,7 +989,7 @@ func (ec *executionContext) field_Subscription_serviceInvalidSubscribe3_args(ctx
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -1004,7 +1004,7 @@ func (ec *executionContext) field_Subscription_servicePubSub1_args(ctx context.C
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -1019,7 +1019,7 @@ func (ec *executionContext) field_Subscription_servicePubSub2_args(ctx context.C
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -1034,7 +1034,7 @@ func (ec *executionContext) field_Subscription_serviceSubscribe_args(ctx context
 	var arg0 *pb.Data
 	if tmp, ok := rawArgs["in"]; ok {
 		ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("in"))
-		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
+		arg0, err = ec.unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -1148,7 +1148,7 @@ func (ec *executionContext) _Data_foo(ctx context.Context, field graphql.Collect
 	}
 	res := resTmp.(*pb.Foo2)
 	fc.Result = res
-	return ec.marshalNFoo22ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx, field.Selections, res)
+	return ec.marshalNFoo22ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Data_double(ctx context.Context, field graphql.CollectedField, obj *pb.Data) (ret graphql.Marshaler) {
@@ -1247,7 +1247,7 @@ func (ec *executionContext) _Data_foo2(ctx context.Context, field graphql.Collec
 	}
 	res := resTmp.(*pb.Foo2)
 	fc.Result = res
-	return ec.marshalOFoo22ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx, field.Selections, res)
+	return ec.marshalOFoo22ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Data_double2(ctx context.Context, field graphql.CollectedField, obj *pb.Data) (ret graphql.Marshaler) {
@@ -1375,7 +1375,7 @@ func (ec *executionContext) _Data_Oneof3(ctx context.Context, field graphql.Coll
 	}
 	res := resTmp.(pb.Data_Oneof)
 	fc.Result = res
-	return ec.marshalOData_Oneof2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData_Oneof(ctx, field.Selections, res)
+	return ec.marshalOData_Oneof2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData_Oneof(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Data_Param1_param1(ctx context.Context, field graphql.CollectedField, obj *pb.Data_Param1) (ret graphql.Marshaler) {
@@ -1519,7 +1519,7 @@ func (ec *executionContext) _Mutation_serviceMutate1(ctx context.Context, field 
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -1530,7 +1530,7 @@ func (ec *executionContext) _Mutation_serviceMutate1(ctx context.Context, field 
 	}
 	res := resTmp.(*pb.Data)
 	fc.Result = res
-	return ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
+	return ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_serviceMutate2(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -1578,7 +1578,7 @@ func (ec *executionContext) _Mutation_serviceMutate2(ctx context.Context, field 
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -1589,7 +1589,7 @@ func (ec *executionContext) _Mutation_serviceMutate2(ctx context.Context, field 
 	}
 	res := resTmp.(*pb.Data)
 	fc.Result = res
-	return ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
+	return ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_servicePublish(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -1637,7 +1637,7 @@ func (ec *executionContext) _Mutation_servicePublish(ctx context.Context, field 
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -1648,7 +1648,7 @@ func (ec *executionContext) _Mutation_servicePublish(ctx context.Context, field 
 	}
 	res := resTmp.(*pb.Data)
 	fc.Result = res
-	return ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
+	return ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_servicePubSub1(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -1696,7 +1696,7 @@ func (ec *executionContext) _Mutation_servicePubSub1(ctx context.Context, field 
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -1707,7 +1707,7 @@ func (ec *executionContext) _Mutation_servicePubSub1(ctx context.Context, field 
 	}
 	res := resTmp.(*pb.Data)
 	fc.Result = res
-	return ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
+	return ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_serviceInvalidSubscribe3(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -1755,7 +1755,7 @@ func (ec *executionContext) _Mutation_serviceInvalidSubscribe3(ctx context.Conte
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -1766,7 +1766,7 @@ func (ec *executionContext) _Mutation_serviceInvalidSubscribe3(ctx context.Conte
 	}
 	res := resTmp.(*pb.Data)
 	fc.Result = res
-	return ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
+	return ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_servicePubSub2(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -1814,7 +1814,7 @@ func (ec *executionContext) _Mutation_servicePubSub2(ctx context.Context, field 
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -1825,7 +1825,7 @@ func (ec *executionContext) _Mutation_servicePubSub2(ctx context.Context, field 
 	}
 	res := resTmp.(*pb.Data)
 	fc.Result = res
-	return ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
+	return ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_newName(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -1873,7 +1873,7 @@ func (ec *executionContext) _Mutation_newName(ctx context.Context, field graphql
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -1884,7 +1884,7 @@ func (ec *executionContext) _Mutation_newName(ctx context.Context, field graphql
 	}
 	res := resTmp.(*pb.Data)
 	fc.Result = res
-	return ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
+	return ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_name(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -1932,7 +1932,7 @@ func (ec *executionContext) _Mutation_name(ctx context.Context, field graphql.Co
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -1943,7 +1943,7 @@ func (ec *executionContext) _Mutation_name(ctx context.Context, field graphql.Co
 	}
 	res := resTmp.(*pb.Data)
 	fc.Result = res
-	return ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
+	return ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_newName0(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -1991,7 +1991,7 @@ func (ec *executionContext) _Mutation_newName0(ctx context.Context, field graphq
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2002,7 +2002,7 @@ func (ec *executionContext) _Mutation_newName0(ctx context.Context, field graphq
 	}
 	res := resTmp.(*pb.Data)
 	fc.Result = res
-	return ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
+	return ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_queryMutate1(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -2050,7 +2050,7 @@ func (ec *executionContext) _Mutation_queryMutate1(ctx context.Context, field gr
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2061,7 +2061,7 @@ func (ec *executionContext) _Mutation_queryMutate1(ctx context.Context, field gr
 	}
 	res := resTmp.(*pb.Data)
 	fc.Result = res
-	return ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
+	return ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_serviceQuery1(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -2109,7 +2109,7 @@ func (ec *executionContext) _Query_serviceQuery1(ctx context.Context, field grap
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2120,7 +2120,7 @@ func (ec *executionContext) _Query_serviceQuery1(ctx context.Context, field grap
 	}
 	res := resTmp.(*pb.Data)
 	fc.Result = res
-	return ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
+	return ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_serviceInvalidSubscribe1(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -2168,7 +2168,7 @@ func (ec *executionContext) _Query_serviceInvalidSubscribe1(ctx context.Context,
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2179,7 +2179,7 @@ func (ec *executionContext) _Query_serviceInvalidSubscribe1(ctx context.Context,
 	}
 	res := resTmp.(*pb.Data)
 	fc.Result = res
-	return ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
+	return ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_queryQuery1(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -2227,7 +2227,7 @@ func (ec *executionContext) _Query_queryQuery1(ctx context.Context, field graphq
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2238,7 +2238,7 @@ func (ec *executionContext) _Query_queryQuery1(ctx context.Context, field graphq
 	}
 	res := resTmp.(*pb.Data)
 	fc.Result = res
-	return ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
+	return ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_queryQuery2(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -2286,7 +2286,7 @@ func (ec *executionContext) _Query_queryQuery2(ctx context.Context, field graphq
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2297,7 +2297,7 @@ func (ec *executionContext) _Query_queryQuery2(ctx context.Context, field graphq
 	}
 	res := resTmp.(*pb.Data)
 	fc.Result = res
-	return ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
+	return ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query___type(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -2416,7 +2416,7 @@ func (ec *executionContext) _Subscription_serviceSubscribe(ctx context.Context, 
 		if data, ok := tmp.(<-chan *pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2434,7 +2434,7 @@ func (ec *executionContext) _Subscription_serviceSubscribe(ctx context.Context, 
 			w.Write([]byte{'{'})
 			graphql.MarshalString(field.Alias).MarshalGQL(w)
 			w.Write([]byte{':'})
-			ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res).MarshalGQL(w)
+			ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res).MarshalGQL(w)
 			w.Write([]byte{'}'})
 		})
 	}
@@ -2485,7 +2485,7 @@ func (ec *executionContext) _Subscription_servicePubSub1(ctx context.Context, fi
 		if data, ok := tmp.(<-chan *pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2503,7 +2503,7 @@ func (ec *executionContext) _Subscription_servicePubSub1(ctx context.Context, fi
 			w.Write([]byte{'{'})
 			graphql.MarshalString(field.Alias).MarshalGQL(w)
 			w.Write([]byte{':'})
-			ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res).MarshalGQL(w)
+			ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res).MarshalGQL(w)
 			w.Write([]byte{'}'})
 		})
 	}
@@ -2554,7 +2554,7 @@ func (ec *executionContext) _Subscription_serviceInvalidSubscribe2(ctx context.C
 		if data, ok := tmp.(<-chan *pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2572,7 +2572,7 @@ func (ec *executionContext) _Subscription_serviceInvalidSubscribe2(ctx context.C
 			w.Write([]byte{'{'})
 			graphql.MarshalString(field.Alias).MarshalGQL(w)
 			w.Write([]byte{':'})
-			ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res).MarshalGQL(w)
+			ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res).MarshalGQL(w)
 			w.Write([]byte{'}'})
 		})
 	}
@@ -2623,7 +2623,7 @@ func (ec *executionContext) _Subscription_serviceInvalidSubscribe3(ctx context.C
 		if data, ok := tmp.(<-chan *pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2641,7 +2641,7 @@ func (ec *executionContext) _Subscription_serviceInvalidSubscribe3(ctx context.C
 			w.Write([]byte{'{'})
 			graphql.MarshalString(field.Alias).MarshalGQL(w)
 			w.Write([]byte{':'})
-			ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res).MarshalGQL(w)
+			ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res).MarshalGQL(w)
 			w.Write([]byte{'}'})
 		})
 	}
@@ -2692,7 +2692,7 @@ func (ec *executionContext) _Subscription_servicePubSub2(ctx context.Context, fi
 		if data, ok := tmp.(<-chan *pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2710,7 +2710,7 @@ func (ec *executionContext) _Subscription_servicePubSub2(ctx context.Context, fi
 			w.Write([]byte{'{'})
 			graphql.MarshalString(field.Alias).MarshalGQL(w)
 			w.Write([]byte{':'})
-			ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res).MarshalGQL(w)
+			ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res).MarshalGQL(w)
 			w.Write([]byte{'}'})
 		})
 	}
@@ -2761,7 +2761,7 @@ func (ec *executionContext) _Subscription_querySubscribe(ctx context.Context, fi
 		if data, ok := tmp.(<-chan *pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/danielvladco/go-proto-gql/example/codegen/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2779,7 +2779,7 @@ func (ec *executionContext) _Subscription_querySubscribe(ctx context.Context, fi
 			w.Write([]byte{'{'})
 			graphql.MarshalString(field.Alias).MarshalGQL(w)
 			w.Write([]byte{':'})
-			ec.marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res).MarshalGQL(w)
+			ec.marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx, field.Selections, res).MarshalGQL(w)
 			w.Write([]byte{'}'})
 		})
 	}
@@ -3890,7 +3890,7 @@ func (ec *executionContext) unmarshalInputDataInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("foo"))
-			it.Foo, err = ec.unmarshalNFoo2Input2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx, v)
+			it.Foo, err = ec.unmarshalNFoo2Input2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -3914,7 +3914,7 @@ func (ec *executionContext) unmarshalInputDataInput(ctx context.Context, obj int
 			var err error
 
 			ctx := graphql.WithPathContext(ctx, graphql.NewPathWithField("foo2"))
-			it.Foo2, err = ec.unmarshalOFoo2Input2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx, v)
+			it.Foo2, err = ec.unmarshalOFoo2Input2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx, v)
 			if err != nil {
 				return it, err
 			}
@@ -4632,7 +4632,7 @@ func (ec *executionContext) marshalNFloat2ᚕfloat64ᚄ(ctx context.Context, sel
 	return ret
 }
 
-func (ec *executionContext) marshalNFoo22ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx context.Context, sel ast.SelectionSet, v *pb.Foo2) graphql.Marshaler {
+func (ec *executionContext) marshalNFoo22ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx context.Context, sel ast.SelectionSet, v *pb.Foo2) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -4642,7 +4642,7 @@ func (ec *executionContext) marshalNFoo22ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑp
 	return ec._Foo2(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNFoo2Input2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx context.Context, v interface{}) (*pb.Foo2, error) {
+func (ec *executionContext) unmarshalNFoo2Input2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx context.Context, v interface{}) (*pb.Foo2, error) {
 	res, err := ec.unmarshalInputFoo2Input(ctx, v)
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
@@ -4915,14 +4915,14 @@ func (ec *executionContext) marshalOBoolean2ᚖbool(ctx context.Context, sel ast
 	return graphql.MarshalBoolean(*v)
 }
 
-func (ec *executionContext) marshalOData2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx context.Context, sel ast.SelectionSet, v *pb.Data) graphql.Marshaler {
+func (ec *executionContext) marshalOData2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx context.Context, sel ast.SelectionSet, v *pb.Data) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Data(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx context.Context, v interface{}) (*pb.Data, error) {
+func (ec *executionContext) unmarshalODataInput2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData(ctx context.Context, v interface{}) (*pb.Data, error) {
 	if v == nil {
 		return nil, nil
 	}
@@ -4930,7 +4930,7 @@ func (ec *executionContext) unmarshalODataInput2ᚖgithubᚗcomᚋdanielvladco�
 	return &res, graphql.ErrorOnPath(ctx, err)
 }
 
-func (ec *executionContext) marshalOData_Oneof2githubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData_Oneof(ctx context.Context, sel ast.SelectionSet, v pb.Data_Oneof) graphql.Marshaler {
+func (ec *executionContext) marshalOData_Oneof2githubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐData_Oneof(ctx context.Context, sel ast.SelectionSet, v pb.Data_Oneof) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -4973,14 +4973,14 @@ func (ec *executionContext) marshalOFloat2ᚕfloat64ᚄ(ctx context.Context, sel
 	return ret
 }
 
-func (ec *executionContext) marshalOFoo22ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx context.Context, sel ast.SelectionSet, v *pb.Foo2) graphql.Marshaler {
+func (ec *executionContext) marshalOFoo22ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx context.Context, sel ast.SelectionSet, v *pb.Foo2) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Foo2(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOFoo2Input2ᚖgithubᚗcomᚋdanielvladcoᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx context.Context, v interface{}) (*pb.Foo2, error) {
+func (ec *executionContext) unmarshalOFoo2Input2ᚖgithubᚗcomᚋevgeniyZavgordnyᚋgoᚑprotoᚑgqlᚋexampleᚋcodegenᚋpbᚐFoo2(ctx context.Context, v interface{}) (*pb.Foo2, error) {
 	if v == nil {
 		return nil, nil
 	}

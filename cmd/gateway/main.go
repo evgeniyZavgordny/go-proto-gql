@@ -2,13 +2,11 @@ package main
 
 import (
 	"flag"
-	"github.com/danielvladco/go-proto-gql/pkg/server"
+	"github.com/evgeniyZavgordny/go-proto-gql/pkg/server"
 	"log"
 	"net"
 	"net/http"
 	"os"
-
-	"gopkg.in/yaml.v2"
 )
 
 var (

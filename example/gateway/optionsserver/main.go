@@ -8,7 +8,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 
-	pb "github.com/danielvladco/go-proto-gql/example/gateway/optionsserver/pb"
+	pb "github.com/evgeniyZavgordny/go-proto-gql/example/gateway/optionsserver/pb"
 )
 
 func main() {
@@ -23,7 +23,7 @@ func main() {
 	log.Fatal(s.Serve(l))
 }
 
-type service struct{ pb.UnimplementedServiceServer  }
+type service struct{ pb.UnimplementedServiceServer }
 
 func (s service) Mutate1(ctx context.Context, data *pb.Data) (*pb.Data, error) {
 	return data, nil
