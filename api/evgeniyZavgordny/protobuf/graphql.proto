@@ -1,4 +1,4 @@
-syntax = "proto2";
+syntax = "proto3";
 package evgeniyZavgordny.protobuf.graphql;
 
 option go_package = "github.com/evgeniyZavgordny/go-proto-gql/pkg/graphqlpb";
