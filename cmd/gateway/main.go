@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/evgeniyZavgordny/go-proto-gql/pkg/server"
+	"github.com/evgeniyzavgorodny/go-proto-gql/pkg/server"
 	"log"
 	"net"
 	"net/http"

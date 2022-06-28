@@ -9,4 +9,4 @@ model:
   filename: gql/constructs/model.go
 
 autobind:
-  - "github.com/evgeniyZavgordny/go-proto-gql/example/codegen/pb"
+  - "github.com/evgeniyzavgorodny/go-proto-gql/example/codegen/pb"

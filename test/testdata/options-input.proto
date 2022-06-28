@@ -1,14 +1,14 @@
 syntax = "proto3";
 package options;
-option go_package = "github.com/evgeniyZavgordny/go-proto-gql/example;pb";
+option go_package = "github.com/evgeniyzavgorodny/go-proto-gql/example;pb";
 
-import "api/evgeniyZavgordny/protobuf/graphql.proto";
+import "api/evgeniyzavgorodny/protobuf/graphql.proto";
 
 service Service {
     rpc Mutate1 (Data) returns (Data); // must be a mutation
     rpc Mutate2 (Data) returns (Data); // must be a mutation
     rpc Query1 (Data) returns (Data) {
-        option (evgeniyZavgordny.protobuf.graphql.rpc) = {type: QUERY};
+        option (evgeniyzavgorodny.protobuf.graphql.rpc) = {type: QUERY};
     } // must be a query
 
     rpc Publish (stream Data) returns (Data); // must be a mutation
@@ -16,24 +16,24 @@ service Service {
     rpc PubSub1 (stream Data) returns (stream Data); // must be a mutation and a subscription
 
     rpc InvalidSubscribe1 (stream Data) returns (Data) {
-        option (evgeniyZavgordny.protobuf.graphql.rpc) = {type: QUERY};
+        option (evgeniyzavgorodny.protobuf.graphql.rpc) = {type: QUERY};
     }; // must ignore
     rpc InvalidSubscribe2 (Data) returns (stream Data) {
-        option (evgeniyZavgordny.protobuf.graphql.rpc) = {type: MUTATION};
+        option (evgeniyzavgorodny.protobuf.graphql.rpc) = {type: MUTATION};
     }; // must ignore
     rpc InvalidSubscribe3 (stream Data) returns (stream Data) {
-        option (evgeniyZavgordny.protobuf.graphql.rpc) = {type: QUERY};
+        option (evgeniyzavgorodny.protobuf.graphql.rpc) = {type: QUERY};
     }; // must ignore
     rpc PubSub2 (stream Data) returns (stream Data) {
-        option (evgeniyZavgordny.protobuf.graphql.rpc) = {type: DEFAULT};
+        option (evgeniyzavgorodny.protobuf.graphql.rpc) = {type: DEFAULT};
     }; // must ignore
 
     rpc Ignore (Data) returns (Data) {
-        option (evgeniyZavgordny.protobuf.graphql.rpc) = {ignore: true};
+        option (evgeniyzavgorodny.protobuf.graphql.rpc) = {ignore: true};
     }; // must ignore
 
     rpc Name (Data) returns (Data) {
-        option (evgeniyZavgordny.protobuf.graphql.rpc) = {name: "newName"};
+        option (evgeniyzavgorodny.protobuf.graphql.rpc) = {name: "newName"};
     }; // method name should be "newName"
 }
 
@@ -41,29 +41,29 @@ service Test {
     rpc Name (Data) returns (Data); // expect service name to be "name"
     rpc NewName (Data) returns (Data); // expect service name to be "newName1" since it collides with a name from a different service
 
-    option (evgeniyZavgordny.protobuf.graphql.svc) = {name: ""};
+    option (evgeniyzavgorodny.protobuf.graphql.svc) = {name: ""};
 }
 
 service Query {
-    option (evgeniyZavgordny.protobuf.graphql.svc) = {type: QUERY};
+    option (evgeniyzavgorodny.protobuf.graphql.svc) = {type: QUERY};
     rpc Query1 (Data) returns (Data); // must be a query
     rpc Query2 (Data) returns (Data); // must be a query
     rpc Mutate1 (Data) returns (Data) {
-        option (evgeniyZavgordny.protobuf.graphql.rpc) = {type: MUTATION};
+        option (evgeniyzavgorodny.protobuf.graphql.rpc) = {type: MUTATION};
     } // must be a mutation
     rpc Subscribe (Data) returns (stream Data); // must be a subscription
 }
 
 message Data {
-    string string_x = 1 [(evgeniyZavgordny.protobuf.graphql.field) = {required: true}]; // must be required
-    Foo2 foo = 2 [(evgeniyZavgordny.protobuf.graphql.field) = {required: true}]; // must be required
-    repeated double double = 3 [(evgeniyZavgordny.protobuf.graphql.field) = {required: true}]; // must be required because its greater than 0
+    string string_x = 1 [(evgeniyzavgorodny.protobuf.graphql.field) = {required: true}]; // must be required
+    Foo2 foo = 2 [(evgeniyzavgorodny.protobuf.graphql.field) = {required: true}]; // must be required
+    repeated double double = 3 [(evgeniyzavgorodny.protobuf.graphql.field) = {required: true}]; // must be required because its greater than 0
     string string2 = 4; // simple
     Foo2 foo2 = 5; // simple
     repeated double double2 = 6; // simple
-    string bar = 7 [(evgeniyZavgordny.protobuf.graphql.field) = {name: "bars"}];
-    string string = 8 [(evgeniyZavgordny.protobuf.graphql.field) = {name: "str"}];
-    string ignore = 9 [(evgeniyZavgordny.protobuf.graphql.field) = {ignore: true}];
+    string bar = 7 [(evgeniyzavgorodny.protobuf.graphql.field) = {name: "bars"}];
+    string string = 8 [(evgeniyzavgorodny.protobuf.graphql.field) = {name: "str"}];
+    string ignore = 9 [(evgeniyzavgorodny.protobuf.graphql.field) = {ignore: true}];
 }
 
 message Foo2 {

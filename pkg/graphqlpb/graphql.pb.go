@@ -258,7 +258,7 @@ type Rpc struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	Type   *Type   `protobuf:"varint,1,opt,name=type,proto3,enum=evgeniyZavgordny.protobuf.graphql.Type,oneof" json:"type,omitempty"`
+	Type   *Type   `protobuf:"varint,1,opt,name=type,proto3,enum=evgeniyzavgorodny.protobuf.graphql.Type,oneof" json:"type,omitempty"`
 	Ignore *bool   `protobuf:"varint,2,opt,name=ignore,proto3,oneof" json:"ignore,omitempty"`
 	Name   *string `protobuf:"bytes,3,opt,name=name,proto3,oneof" json:"name,omitempty"`
 }
@@ -321,10 +321,10 @@ type Svc struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	Type     *Type     `protobuf:"varint,1,opt,name=type,proto3,enum=evgeniyZavgordny.protobuf.graphql.Type,oneof" json:"type,omitempty"`
+	Type     *Type     `protobuf:"varint,1,opt,name=type,proto3,enum=evgeniyzavgorodny.protobuf.graphql.Type,oneof" json:"type,omitempty"`
 	Ignore   *bool     `protobuf:"varint,2,opt,name=ignore,proto3,oneof" json:"ignore,omitempty"`
 	Name     *string   `protobuf:"bytes,3,opt,name=name,proto3,oneof" json:"name,omitempty"`
-	Upstream *Upstream `protobuf:"varint,4,opt,name=upstream,proto3,enum=evgeniyZavgordny.protobuf.graphql.Upstream,oneof" json:"upstream,omitempty"`
+	Upstream *Upstream `protobuf:"varint,4,opt,name=upstream,proto3,enum=evgeniyzavgorodny.protobuf.graphql.Upstream,oneof" json:"upstream,omitempty"`
 }
 
 func (x *Svc) Reset() {
@@ -392,7 +392,7 @@ var file_graphql_proto_extTypes = []protoimpl.ExtensionInfo{
 		ExtendedType:  (*descriptor.MethodOptions)(nil),
 		ExtensionType: (*Rpc)(nil),
 		Field:         65030,
-		Name:          "evgeniyZavgordny.protobuf.graphql.rpc",
+		Name:          "evgeniyzavgorodny.protobuf.graphql.rpc",
 		Tag:           "bytes,65030,opt,name=rpc",
 		Filename:      "graphql.proto",
 	},
@@ -400,7 +400,7 @@ var file_graphql_proto_extTypes = []protoimpl.ExtensionInfo{
 		ExtendedType:  (*descriptor.ServiceOptions)(nil),
 		ExtensionType: (*Svc)(nil),
 		Field:         65030,
-		Name:          "evgeniyZavgordny.protobuf.graphql.svc",
+		Name:          "evgeniyzavgorodny.protobuf.graphql.svc",
 		Tag:           "bytes,65030,opt,name=svc",
 		Filename:      "graphql.proto",
 	},
@@ -408,7 +408,7 @@ var file_graphql_proto_extTypes = []protoimpl.ExtensionInfo{
 		ExtendedType:  (*descriptor.FieldOptions)(nil),
 		ExtensionType: (*Field)(nil),
 		Field:         65030,
-		Name:          "evgeniyZavgordny.protobuf.graphql.field",
+		Name:          "evgeniyzavgorodny.protobuf.graphql.field",
 		Tag:           "bytes,65030,opt,name=field",
 		Filename:      "graphql.proto",
 	},
@@ -416,7 +416,7 @@ var file_graphql_proto_extTypes = []protoimpl.ExtensionInfo{
 		ExtendedType:  (*descriptor.OneofOptions)(nil),
 		ExtensionType: (*Oneof)(nil),
 		Field:         65030,
-		Name:          "evgeniyZavgordny.protobuf.graphql.oneof",
+		Name:          "evgeniyzavgorodny.protobuf.graphql.oneof",
 		Tag:           "bytes,65030,opt,name=oneof",
 		Filename:      "graphql.proto",
 	},
@@ -424,25 +424,25 @@ var file_graphql_proto_extTypes = []protoimpl.ExtensionInfo{
 
 // Extension fields to descriptor.MethodOptions.
 var (
-	// optional evgeniyZavgordny.protobuf.graphql.Rpc rpc = 65030;
+	// optional evgeniyzavgorodny.protobuf.graphql.Rpc rpc = 65030;
 	E_Rpc = &file_graphql_proto_extTypes[0]
 )
 
 // Extension fields to descriptor.ServiceOptions.
 var (
-	// optional evgeniyZavgordny.protobuf.graphql.Svc svc = 65030;
+	// optional evgeniyzavgorodny.protobuf.graphql.Svc svc = 65030;
 	E_Svc = &file_graphql_proto_extTypes[1]
 )
 
 // Extension fields to descriptor.FieldOptions.
 var (
-	// optional evgeniyZavgordny.protobuf.graphql.Field field = 65030;
+	// optional evgeniyzavgorodny.protobuf.graphql.Field field = 65030;
 	E_Field = &file_graphql_proto_extTypes[2]
 )
 
 // Extension fields to descriptor.OneofOptions.
 var (
-	// optional evgeniyZavgordny.protobuf.graphql.Oneof oneof = 65030;
+	// optional evgeniyzavgorodny.protobuf.graphql.Oneof oneof = 65030;
 	E_Oneof = &file_graphql_proto_extTypes[3]
 )
 
@@ -551,29 +551,29 @@ func file_graphql_proto_rawDescGZIP() []byte {
 var file_graphql_proto_enumTypes = make([]protoimpl.EnumInfo, 2)
 var file_graphql_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
 var file_graphql_proto_goTypes = []interface{}{
-	(Type)(0),                         // 0: evgeniyZavgordny.protobuf.graphql.Type
-	(Upstream)(0),                     // 1: evgeniyZavgordny.protobuf.graphql.Upstream
-	(*Oneof)(nil),                     // 2: evgeniyZavgordny.protobuf.graphql.Oneof
-	(*Field)(nil),                     // 3: evgeniyZavgordny.protobuf.graphql.Field
-	(*Rpc)(nil),                       // 4: evgeniyZavgordny.protobuf.graphql.Rpc
-	(*Svc)(nil),                       // 5: evgeniyZavgordny.protobuf.graphql.Svc
+	(Type)(0),                         // 0: evgeniyzavgorodny.protobuf.graphql.Type
+	(Upstream)(0),                     // 1: evgeniyzavgorodny.protobuf.graphql.Upstream
+	(*Oneof)(nil),                     // 2: evgeniyzavgorodny.protobuf.graphql.Oneof
+	(*Field)(nil),                     // 3: evgeniyzavgorodny.protobuf.graphql.Field
+	(*Rpc)(nil),                       // 4: evgeniyzavgorodny.protobuf.graphql.Rpc
+	(*Svc)(nil),                       // 5: evgeniyzavgorodny.protobuf.graphql.Svc
 	(*descriptor.MethodOptions)(nil),  // 6: google.protobuf.MethodOptions
 	(*descriptor.ServiceOptions)(nil), // 7: google.protobuf.ServiceOptions
 	(*descriptor.FieldOptions)(nil),   // 8: google.protobuf.FieldOptions
 	(*descriptor.OneofOptions)(nil),   // 9: google.protobuf.OneofOptions
 }
 var file_graphql_proto_depIdxs = []int32{
-	0,  // 0: evgeniyZavgordny.protobuf.graphql.Rpc.type:type_name -> evgeniyZavgordny.protobuf.graphql.Type
-	0,  // 1: evgeniyZavgordny.protobuf.graphql.Svc.type:type_name -> evgeniyZavgordny.protobuf.graphql.Type
-	1,  // 2: evgeniyZavgordny.protobuf.graphql.Svc.upstream:type_name -> evgeniyZavgordny.protobuf.graphql.Upstream
-	6,  // 3: evgeniyZavgordny.protobuf.graphql.rpc:extendee -> google.protobuf.MethodOptions
-	7,  // 4: evgeniyZavgordny.protobuf.graphql.svc:extendee -> google.protobuf.ServiceOptions
-	8,  // 5: evgeniyZavgordny.protobuf.graphql.field:extendee -> google.protobuf.FieldOptions
-	9,  // 6: evgeniyZavgordny.protobuf.graphql.oneof:extendee -> google.protobuf.OneofOptions
-	4,  // 7: evgeniyZavgordny.protobuf.graphql.rpc:type_name -> evgeniyZavgordny.protobuf.graphql.Rpc
-	5,  // 8: evgeniyZavgordny.protobuf.graphql.svc:type_name -> evgeniyZavgordny.protobuf.graphql.Svc
-	3,  // 9: evgeniyZavgordny.protobuf.graphql.field:type_name -> evgeniyZavgordny.protobuf.graphql.Field
-	2,  // 10: evgeniyZavgordny.protobuf.graphql.oneof:type_name -> evgeniyZavgordny.protobuf.graphql.Oneof
+	0,  // 0: evgeniyzavgorodny.protobuf.graphql.Rpc.type:type_name -> evgeniyzavgorodny.protobuf.graphql.Type
+	0,  // 1: evgeniyzavgorodny.protobuf.graphql.Svc.type:type_name -> evgeniyzavgorodny.protobuf.graphql.Type
+	1,  // 2: evgeniyzavgorodny.protobuf.graphql.Svc.upstream:type_name -> evgeniyzavgorodny.protobuf.graphql.Upstream
+	6,  // 3: evgeniyzavgorodny.protobuf.graphql.rpc:extendee -> google.protobuf.MethodOptions
+	7,  // 4: evgeniyzavgorodny.protobuf.graphql.svc:extendee -> google.protobuf.ServiceOptions
+	8,  // 5: evgeniyzavgorodny.protobuf.graphql.field:extendee -> google.protobuf.FieldOptions
+	9,  // 6: evgeniyzavgorodny.protobuf.graphql.oneof:extendee -> google.protobuf.OneofOptions
+	4,  // 7: evgeniyzavgorodny.protobuf.graphql.rpc:type_name -> evgeniyzavgorodny.protobuf.graphql.Rpc
+	5,  // 8: evgeniyzavgorodny.protobuf.graphql.svc:type_name -> evgeniyzavgorodny.protobuf.graphql.Svc
+	3,  // 9: evgeniyzavgorodny.protobuf.graphql.field:type_name -> evgeniyzavgorodny.protobuf.graphql.Field
+	2,  // 10: evgeniyzavgorodny.protobuf.graphql.oneof:type_name -> evgeniyzavgorodny.protobuf.graphql.Oneof
 	11, // [11:11] is the sub-list for method output_type
 	11, // [11:11] is the sub-list for method input_type
 	7,  // [7:11] is the sub-list for extension type_name

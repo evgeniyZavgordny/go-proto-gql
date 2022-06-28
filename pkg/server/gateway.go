@@ -7,7 +7,7 @@ import (
 	"github.com/nautilus/graphql"
 	"github.com/rs/cors"
 
-	"github.com/evgeniyZavgordny/go-proto-gql/pkg/generator"
+	"github.com/evgeniyzavgorodny/go-proto-gql/pkg/generator"
 )
 
 func Server(cfg *Config) (http.Handler, error) {

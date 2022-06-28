@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/evgeniyZavgordny/go-proto-gql/branch/refactor-and-e2e-tests/graph/badge.svg?token=L3N8kUGpGV)](https://codecov.io/gh/evgeniyZavgordny/go-proto-gql)
+[![codecov](https://codecov.io/gh/evgeniyzavgorodny/go-proto-gql/branch/refactor-and-e2e-tests/graph/badge.svg?token=L3N8kUGpGV)](https://codecov.io/gh/evgeniyzavgorodny/go-proto-gql)
 
 Protoc plugins for generating graphql schema and go graphql code
 
@@ -11,8 +11,8 @@ Install:
 -
 
 ```sh
-go install github.com/evgeniyZavgordny/go-proto-gql/protoc-gen-gql
-go install github.com/evgeniyZavgordny/go-proto-gql/protoc-gen-gogql
+go install github.com/evgeniyzavgorodny/go-proto-gql/protoc-gen-gql
+go install github.com/evgeniyzavgorodny/go-proto-gql/protoc-gen-gogql
 ```
 
 Usage Examples:

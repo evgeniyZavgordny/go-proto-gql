@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/evgeniyZavgordny/go-proto-gql/pkg/server"
-	pb "github.com/evgeniyZavgordny/go-proto-gql/test/testdata"
+	"github.com/evgeniyzavgorodny/go-proto-gql/pkg/server"
+	pb "github.com/evgeniyzavgorodny/go-proto-gql/test/testdata"
 	"github.com/golang/protobuf/proto"
 	any "github.com/golang/protobuf/ptypes/any"
 	empty "github.com/golang/protobuf/ptypes/empty"

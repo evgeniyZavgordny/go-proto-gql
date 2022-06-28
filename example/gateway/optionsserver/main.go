@@ -8,7 +8,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 
-	pb "github.com/evgeniyZavgordny/go-proto-gql/example/gateway/optionsserver/pb"
+	pb "github.com/evgeniyzavgorodny/go-proto-gql/example/gateway/optionsserver/pb"
 )
 
 func main() {

@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/evgeniyZavgordny/go-proto-gql/pkg/protoparser"
+	"github.com/evgeniyzavgorodny/go-proto-gql/pkg/protoparser"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/types/pluginpb"
 	"log"
@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/evgeniyZavgordny/go-proto-gql/pkg/generator"
+	"github.com/evgeniyzavgorodny/go-proto-gql/pkg/generator"
 	"github.com/vektah/gqlparser/v2/formatter"
 )
 

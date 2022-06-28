@@ -1,4 +1,4 @@
-module github.com/evgeniyZavgordny/go-proto-gql
+module github.com/evgeniyzavgorodny/go-proto-gql
 
 go 1.18
 
